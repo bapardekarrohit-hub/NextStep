@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: nextstep
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: ADMIN_KEY
+        generateValue: true
+      - key: NEXTSTEP_DB
+        value: /tmp/nextstep.db
