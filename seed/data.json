@@ -1,0 +1,5170 @@
+{
+ "industries": [
+  {
+   "id": "tech",
+   "name": "Technology",
+   "blurb": "Software, security and cloud",
+   "color": "#5b3fd6",
+   "sort": 0
+  },
+  {
+   "id": "data",
+   "name": "Data & AI",
+   "blurb": "Analytics, science and machine learning",
+   "color": "#0a6c78",
+   "sort": 1
+  },
+  {
+   "id": "design",
+   "name": "Design & Creative",
+   "blurb": "Design, video and visual work",
+   "color": "#be185d",
+   "sort": 2
+  },
+  {
+   "id": "business",
+   "name": "Business & Marketing",
+   "blurb": "Marketing, people and management",
+   "color": "#b45309",
+   "sort": 3
+  },
+  {
+   "id": "finance",
+   "name": "Finance & Accounts",
+   "blurb": "Money, reports and analysis",
+   "color": "#0b7a4b",
+   "sort": 4
+  },
+  {
+   "id": "education",
+   "name": "Education",
+   "blurb": "Teaching and learning design",
+   "color": "#4f46e5",
+   "sort": 5
+  }
+ ],
+ "config": {
+  "aliases": {
+   "power bi": [
+    "powerbi"
+   ],
+   "scikit-learn": [
+    "sklearn",
+    "scikit learn"
+   ],
+   "node.js": [
+    "nodejs",
+    "node js"
+   ],
+   "react": [
+    "reactjs",
+    "react.js"
+   ],
+   "postgresql": [
+    "postgres"
+   ],
+   "machine learning": [
+    "ml"
+   ],
+   "next.js": [
+    "nextjs"
+   ],
+   "javascript": [
+    "js"
+   ],
+   "ci/cd": [
+    "cicd"
+   ],
+   "jupyter": [
+    "jupyter notebook"
+   ],
+   "google analytics": [
+    "ga4"
+   ],
+   "after effects": [
+    "aftereffects"
+   ],
+   "premiere pro": [
+    "premiere"
+   ]
+  },
+  "sample": "B.Sc. Computer Science student. Skills: Python, SQL, Excel, Tableau, pandas, NumPy, scikit-learn, HTML, CSS, JavaScript, Git. Projects: sales dashboard in Tableau, churn prediction with machine learning, personal portfolio website."
+ },
+ "careers": [
+  {
+   "id": "frontend",
+   "industry": "tech",
+   "group": "Web & apps",
+   "name": "Frontend Developer",
+   "what": "Builds the part of a website that you see and tap: pages, buttons and menus.",
+   "fit": "You like design and seeing your work on screen right away.",
+   "kw": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "TypeScript",
+    "Tailwind",
+    "Responsive design",
+    "Git",
+    "Figma",
+    "Next.js",
+    "Bootstrap",
+    "Redux"
+   ],
+   "path": [
+    "Learn HTML and CSS. They build the page and make it look good.",
+    "Learn JavaScript. It makes the page react when someone clicks.",
+    "Learn React. It helps you build bigger websites faster.",
+    "Make your sites work well on phones.",
+    "Put 3 sites online for free using Vercel or Netlify."
+   ],
+   "project": "Copy a real company's home page so it works well on phones, then put it online.",
+   "guide": {
+    "time": "4 to 6 months",
+    "level": "Beginner friendly",
+    "jobs": [
+     "Frontend Developer",
+     "Web Developer",
+     "UI Developer"
+    ],
+    "days": [
+     "Install VS Code and make your first HTML page with a heading, a picture and a link.",
+     "Style that page with CSS: colours, fonts and spacing.",
+     "Learn flexbox and make a row of three cards.",
+     "Make the page work on a phone using a media query.",
+     "Write your first JavaScript: a button that changes some text.",
+     "Put your page online for free using GitHub Pages.",
+     "Pick a real website you like and list five things you want to copy."
+    ],
+    "tools": [
+     "VS Code",
+     "Chrome DevTools",
+     "Git and GitHub",
+     "Node.js",
+     "Figma (to read designs)"
+    ],
+    "interview": [
+     "The difference between flexbox and grid",
+     "What the CSS box model is",
+     "What a closure is in JavaScript",
+     "How props and state differ in React",
+     "How you make a page accessible",
+     "How you would speed up a slow page"
+    ],
+    "stages": [
+     {
+      "title": "Foundations",
+      "weeks": "Weeks 1 to 4",
+      "items": [
+       "Learn HTML tags, forms and links",
+       "Learn CSS: box model, flexbox and grid",
+       "Learn Git basics and make a GitHub account"
+      ]
+     },
+     {
+      "title": "Core skills",
+      "weeks": "Weeks 5 to 10",
+      "items": [
+       "Learn JavaScript: variables, functions, arrays and the DOM",
+       "Fetch data from a public API",
+       "Learn React: components, props and state"
+      ]
+     },
+     {
+      "title": "Build",
+      "weeks": "Weeks 11 to 16",
+      "items": [
+       "Build three responsive websites",
+       "Learn accessibility: headings, alt text and colour contrast",
+       "Check page speed with Lighthouse in Chrome"
+      ]
+     },
+     {
+      "title": "Get hired",
+      "weeks": "Weeks 17 to 24",
+      "items": [
+       "Build a portfolio site with your best three projects",
+       "Practise HTML, CSS and JavaScript interview questions",
+       "Apply for internships and try an open source issue"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "name": "MDN Learn Web Development",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn",
+      "price": "Free",
+      "desc": "The best free reference for HTML, CSS and JavaScript."
+     },
+     {
+      "name": "freeCodeCamp",
+      "url": "https://www.freecodecamp.org/",
+      "price": "Free",
+      "desc": "Step-by-step coding lessons with projects and certificates."
+     },
+     {
+      "name": "The Odin Project",
+      "url": "https://www.theodinproject.com/",
+      "price": "Free",
+      "desc": "A full web development course built around projects."
+     },
+     {
+      "name": "javascript.info",
+      "url": "https://javascript.info/",
+      "price": "Free",
+      "desc": "A clear, modern JavaScript tutorial."
+     },
+     {
+      "name": "React documentation",
+      "url": "https://react.dev/learn",
+      "price": "Free",
+      "desc": "The official lessons for React."
+     },
+     {
+      "name": "Frontend Mentor",
+      "url": "https://www.frontendmentor.io/",
+      "price": "Free + paid",
+      "desc": "Real design challenges to practise on."
+     }
+    ],
+    "projects": [
+     {
+      "level": "Beginner",
+      "title": "Personal profile page",
+      "desc": "A one-page site about you with a photo, your skills and contact links. Make it look good on a phone.",
+      "publish": "GitHub Pages"
+     },
+     {
+      "level": "Intermediate",
+      "title": "Weather app",
+      "desc": "Search a city and show its weather using a free weather API. Show a friendly message if the city is not found.",
+      "publish": "Netlify or Vercel"
+     },
+     {
+      "level": "Portfolio",
+      "title": "Real website rebuild",
+      "desc": "Rebuild the home page of a real company. Match the layout, add a mobile menu and score above 90 on Lighthouse.",
+      "publish": "Vercel, with a GitHub README that has screenshots"
+     }
+    ]
+   },
+   "quiz": [
+    {
+     "q": "Which CSS feature lays out items in rows or columns and aligns them easily?",
+     "options": [
+      "Flexbox",
+      "Float",
+      "Z-index",
+      "Overflow"
+     ],
+     "explanation": "Flexbox and Grid are made for layout and alignment."
+    },
+    {
+     "q": "What does responsive design mean?",
+     "options": [
+      "The layout adapts to different screen sizes",
+      "The page loads in one second",
+      "The page has many animations",
+      "The page works offline"
+     ],
+     "explanation": "Responsive pages look good on phones, tablets and computers."
+    },
+    {
+     "q": "In JavaScript, which keyword declares a variable that cannot be reassigned?",
+     "options": [
+      "const",
+      "var",
+      "let",
+      "static"
+     ],
+     "explanation": "const keeps the same value reference after it is set."
+    },
+    {
+     "q": "In React, what are props?",
+     "options": [
+      "Data passed from a parent component to a child",
+      "A database table",
+      "A CSS file",
+      "A browser plugin"
+     ],
+     "explanation": "Props let a parent give information to its child components."
+    },
+    {
+     "q": "Which browser tool lets you inspect HTML, CSS and network requests?",
+     "options": [
+      "DevTools",
+      "Terminal",
+      "Photoshop",
+      "Excel"
+     ],
+     "explanation": "Press F12 in most browsers to open DevTools."
+    }
+   ]
+  },
+  {
+   "id": "backend",
+   "industry": "tech",
+   "group": "Web & apps",
+   "name": "Backend Developer",
+   "what": "Builds the hidden part of an app: the server and database that store and send information.",
+   "fit": "You like logic and solving problems more than making things look nice.",
+   "kw": [
+    "Node.js",
+    "Express",
+    "Python",
+    "Django",
+    "Flask",
+    "FastAPI",
+    "Java",
+    "Spring",
+    "SQL",
+    "MySQL",
+    "PostgreSQL",
+    "MongoDB",
+    "REST",
+    "API",
+    "Authentication",
+    "Docker",
+    "Git"
+   ],
+   "path": [
+    "Pick one language: Python, Java or JavaScript.",
+    "Learn SQL. It is how you talk to a database.",
+    "Build an API. It is how apps ask a server for information.",
+    "Learn how to add login and keep data safe.",
+    "Put your server online with a real database."
+   ],
+   "project": "Build the server for a notes or expense app with login and a database, then put it online.",
+   "guide": {
+    "time": "5 to 8 months",
+    "level": "Medium",
+    "jobs": [
+     "Backend Developer",
+     "API Developer",
+     "Software Engineer"
+    ],
+    "days": [
+     "Pick one language (Python, Java or JavaScript) and install it.",
+     "Write a small program that reads a list and prints a summary.",
+     "Learn what an API is and call a free public API from code.",
+     "Learn SQL basics: create a table, insert rows and run a SELECT.",
+     "Build a tiny server with one route that returns JSON.",
+     "Save data from your server into a database.",
+     "Test your routes with Postman and write down what each one does."
+    ],
+    "tools": [
+     "Python or Node.js or Java",
+     "Postman",
+     "PostgreSQL or MySQL",
+     "Docker",
+     "Git and GitHub"
+    ],
+    "interview": [
+     "What REST is and how it works",
+     "The difference between SQL and NoSQL databases",
+     "What an index does in a database",
+     "How you store passwords safely",
+     "What caching is and when to use it",
+     "How you would handle many requests at once"
+    ],
+    "stages": [
+     {
+      "title": "Foundations",
+      "weeks": "Weeks 1 to 4",
+      "items": [
+       "Learn one language well: Python, Java or JavaScript",
+       "Learn Git and the command line",
+       "Learn how the web works: HTTP, URLs and status codes"
+      ]
+     },
+     {
+      "title": "Core skills",
+      "weeks": "Weeks 5 to 10",
+      "items": [
+       "Learn SQL and database design",
+       "Build REST APIs with a framework such as FastAPI, Express or Spring",
+       "Add login, passwords and tokens safely"
+      ]
+     },
+     {
+      "title": "Build",
+      "weeks": "Weeks 11 to 18",
+      "items": [
+       "Write tests for your API",
+       "Learn Docker to package your app",
+       "Deploy an API with a real database"
+      ]
+     },
+     {
+      "title": "Get hired",
+      "weeks": "Weeks 19 to 26",
+      "items": [
+       "Put three API projects on GitHub with clear READMEs",
+       "Practise data structures and SQL questions",
+       "Apply for internships and junior roles"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "name": "Python tutorial",
+      "url": "https://docs.python.org/3/tutorial/",
+      "price": "Free",
+      "desc": "The official, beginner-friendly Python guide."
+     },
+     {
+      "name": "FastAPI tutorial",
+      "url": "https://fastapi.tiangolo.com/tutorial/",
+      "price": "Free",
+      "desc": "Build modern APIs step by step."
+     },
+     {
+      "name": "Node.js learn",
+      "url": "https://nodejs.org/en/learn",
+      "price": "Free",
+      "desc": "Official lessons for JavaScript on the server."
+     },
+     {
+      "name": "SQLBolt",
+      "url": "https://sqlbolt.com/",
+      "price": "Free",
+      "desc": "Short interactive SQL lessons."
+     },
+     {
+      "name": "Postman Learning Center",
+      "url": "https://learning.postman.com/",
+      "price": "Free",
+      "desc": "Learn to test and document APIs."
+     },
+     {
+      "name": "freeCodeCamp",
+      "url": "https://www.freecodecamp.org/",
+      "price": "Free",
+      "desc": "Back end and APIs lessons with projects."
+     }
+    ],
+    "projects": [
+     {
+      "level": "Beginner",
+      "title": "Notes API",
+      "desc": "An API to create, read, update and delete notes, saved in a database.",
+      "publish": "GitHub"
+     },
+     {
+      "level": "Intermediate",
+      "title": "Expense tracker API",
+      "desc": "Users sign up, log in and track their spending. Add input checks and tests.",
+      "publish": "Render, Railway or a similar free host"
+     },
+     {
+      "level": "Portfolio",
+      "title": "URL shortener with analytics",
+      "desc": "Turn long links into short ones and count clicks per day. Use caching and write API docs.",
+      "publish": "Deployed API plus a README with a diagram"
+     }
+    ]
+   },
+   "quiz": [
+    {
+     "q": "What does an API endpoint do?",
+     "options": [
+      "Receives a request and returns a response",
+      "Styles a web page",
+      "Compiles code",
+      "Stores images only"
+     ],
+     "explanation": "Clients call endpoints to get or change data."
+    },
+    {
+     "q": "Which HTTP method is normally used to create new data?",
+     "options": [
+      "POST",
+      "GET",
+      "HEAD",
+      "TRACE"
+     ],
+     "explanation": "POST sends data to the server to create something."
+    },
+    {
+     "q": "Which SQL command reads rows from a table?",
+     "options": [
+      "SELECT",
+      "INSERT",
+      "UPDATE",
+      "DROP"
+     ],
+     "explanation": "SELECT retrieves data."
+    },
+    {
+     "q": "Why should passwords be stored hashed, not as plain text?",
+     "options": [
+      "So a leaked database does not reveal real passwords",
+      "To save disk space",
+      "To make login faster",
+      "Because browsers require it"
+     ],
+     "explanation": "Hashing makes stolen data much harder to misuse."
+    },
+    {
+     "q": "Which status code means not found?",
+     "options": [
+      "404",
+      "200",
+      "301",
+      "500"
+     ],
+     "explanation": "404 means the requested resource does not exist."
+    }
+   ]
+  },
+  {
+   "id": "fullstack",
+   "industry": "tech",
+   "group": "Web & apps",
+   "name": "Full Stack Developer",
+   "what": "Builds both sides of a website: what you see, and the server behind it.",
+   "fit": "You like building a whole product by yourself.",
+   "kw": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "SQL",
+    "REST",
+    "API",
+    "Git",
+    "TypeScript",
+    "Next.js",
+    "Docker"
+   ],
+   "path": [
+    "Learn HTML, CSS and JavaScript.",
+    "Learn React for the screens.",
+    "Learn Node.js and a database for the server.",
+    "Connect the screens to the server.",
+    "Finish one full app with login and put it online."
+   ],
+   "project": "Build a full app with sign up, login and a database, such as a job application tracker, and put it online.",
+   "guide": {
+    "time": "6 to 9 months",
+    "level": "Medium",
+    "jobs": [
+     "Full Stack Developer",
+     "Web Developer",
+     "Software Engineer"
+    ],
+    "days": [
+     "Make a simple web page with HTML and CSS.",
+     "Add JavaScript so a button changes the page.",
+     "Build a small server that returns a list as JSON.",
+     "Show that list on your web page using fetch.",
+     "Save one new item from a form into a file or database.",
+     "Put the page and the server online using free hosting.",
+     "Write what you learned and what you want to build next."
+    ],
+    "tools": [
+     "VS Code",
+     "Node.js",
+     "React",
+     "PostgreSQL or MongoDB",
+     "Git and GitHub"
+    ],
+    "interview": [
+     "What happens when you type a URL and press Enter",
+     "How the frontend and backend talk to each other",
+     "What authentication and authorization mean",
+     "SQL versus NoSQL for your project",
+     "How you would deploy and update your app",
+     "How you would find and fix a bug in production"
+    ],
+    "stages": [
+     {
+      "title": "Foundations",
+      "weeks": "Weeks 1 to 5",
+      "items": [
+       "Learn HTML, CSS and JavaScript",
+       "Learn Git and GitHub",
+       "Learn how HTTP and APIs work"
+      ]
+     },
+     {
+      "title": "Core skills",
+      "weeks": "Weeks 6 to 14",
+      "items": [
+       "Learn React for the frontend",
+       "Learn Node.js and Express for the backend",
+       "Learn a database: PostgreSQL or MongoDB"
+      ]
+     },
+     {
+      "title": "Build",
+      "weeks": "Weeks 15 to 24",
+      "items": [
+       "Add login and user accounts",
+       "Build one complete app with frontend, backend and database",
+       "Write tests and deploy it"
+      ]
+     },
+     {
+      "title": "Get hired",
+      "weeks": "Weeks 25 to 32",
+      "items": [
+       "Polish a portfolio with two full apps",
+       "Practise JavaScript and system design basics",
+       "Apply for internships and junior roles"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "name": "Full Stack Open",
+      "url": "https://fullstackopen.com/",
+      "price": "Free",
+      "desc": "A respected University of Helsinki course on modern full stack development."
+     },
+     {
+      "name": "The Odin Project",
+      "url": "https://www.theodinproject.com/",
+      "price": "Free",
+      "desc": "A full course with many projects."
+     },
+     {
+      "name": "freeCodeCamp",
+      "url": "https://www.freecodecamp.org/",
+      "price": "Free",
+      "desc": "Front end, back end and database lessons."
+     },
+     {
+      "name": "MDN Learn Web Development",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn",
+      "price": "Free",
+      "desc": "Best reference for the web basics."
+     },
+     {
+      "name": "React documentation",
+      "url": "https://react.dev/learn",
+      "price": "Free",
+      "desc": "The official React lessons."
+     },
+     {
+      "name": "Postman Learning Center",
+      "url": "https://learning.postman.com/",
+      "price": "Free",
+      "desc": "Test your backend routes."
+     }
+    ],
+    "projects": [
+     {
+      "level": "Beginner",
+      "title": "To-do list app",
+      "desc": "Add, finish and delete tasks. Save them in a database through your own API.",
+      "publish": "Vercel plus a free database host"
+     },
+     {
+      "level": "Intermediate",
+      "title": "Job application tracker",
+      "desc": "Users log in, add jobs they applied to and move them through stages like Applied and Interview.",
+      "publish": "Deployed site with a GitHub README"
+     },
+     {
+      "level": "Portfolio",
+      "title": "Mini marketplace",
+      "desc": "Sellers list items, buyers search and save favourites. Add image upload and a clean mobile layout.",
+      "publish": "Deployed site, README with screenshots and a short demo video"
+     }
+    ]
+   },
+   "quiz": [
+    {
+     "q": "In a typical web app, which part runs in the user's browser?",
+     "options": [
+      "The frontend",
+      "The database",
+      "The server operating system",
+      "The load balancer"
+     ],
+     "explanation": "The frontend is the HTML, CSS and JavaScript that the browser runs."
+    },
+    {
+     "q": "What does CRUD stand for?",
+     "options": [
+      "Create, Read, Update, Delete",
+      "Copy, Run, Upload, Deploy",
+      "Connect, Render, Undo, Debug",
+      "Cache, Route, Update, Delete"
+     ],
+     "explanation": "Most apps are built from these four actions on data."
+    },
+    {
+     "q": "What is JSON mostly used for in web apps?",
+     "options": [
+      "Sending data between frontend and backend",
+      "Styling pages",
+      "Compressing images",
+      "Running scripts"
+     ],
+     "explanation": "JSON is a simple text format for structured data."
+    },
+    {
+     "q": "Which tool tracks changes to your code over time?",
+     "options": [
+      "Git",
+      "Chrome",
+      "Figma",
+      "Postman"
+     ],
+     "explanation": "Git keeps a history so you can undo and collaborate."
+    },
+    {
+     "q": "Where is it safe to keep a secret API key?",
+     "options": [
+      "In server-side environment variables",
+      "In frontend JavaScript",
+      "In a public GitHub file",
+      "In an HTML comment"
+     ],
+     "explanation": "Anything sent to the browser can be read by users."
+    }
+   ]
+  },
+  {
+   "id": "mobile",
+   "industry": "tech",
+   "group": "Web & apps",
+   "name": "Mobile App Developer",
+   "what": "Builds apps for Android and iPhone.",
+   "fit": "You like making things people use on their phones every day.",
+   "kw": [
+    "Kotlin",
+    "Android",
+    "Jetpack Compose",
+    "Swift",
+    "SwiftUI",
+    "Flutter",
+    "Dart",
+    "React Native",
+    "Firebase",
+    "Room",
+    "Retrofit",
+    "iOS",
+    "Git"
+   ],
+   "path": [
+    "Pick Android (Kotlin) or Flutter to start.",
+    "Learn to build screens and move between them.",
+    "Learn to save data on the phone.",
+    "Add login and online data with Firebase.",
+    "Test on a real phone and write a short guide."
+   ],
+   "project": "Build an expense tracker app that saves data on the phone and shows charts.",
+   "guide": {
+    "time": "5 to 8 months",
+    "level": "Medium",
+    "jobs": [
+     "Android Developer",
+     "Mobile App Developer",
+     "Flutter Developer"
+    ],
+    "days": [
+     "Install Android Studio (or Flutter) and run the sample app on an emulator.",
+     "Change the text and colour of the sample screen.",
+     "Add a button that shows a message when tapped.",
+     "Make a second screen and move to it from the first.",
+     "Show a list of items on a screen.",
+     "Save one small piece of data on the device.",
+     "Sketch the app you want to build as a first version."
+    ],
+    "tools": [
+     "Android Studio or Flutter SDK",
+     "Emulator and a real phone",
+     "Git and GitHub",
+     "Firebase",
+     "Figma (to read designs)"
+    ],
+    "interview": [
+     "The Android activity and app lifecycle",
+     "What state is in Compose or Flutter",
+     "How you save data on the device",
+     "How you call an API and handle errors",
+     "How you keep the app fast and smooth",
+     "How you would publish an app to the Play Store"
+    ],
+    "stages": [
+     {
+      "title": "Foundations",
+      "weeks": "Weeks 1 to 4",
+      "items": [
+       "Learn Kotlin (or Dart for Flutter) basics",
+       "Learn Git and GitHub",
+       "Run your first app on an emulator and a real phone"
+      ]
+     },
+     {
+      "title": "Core skills",
+      "weeks": "Weeks 5 to 12",
+      "items": [
+       "Learn screens, navigation and lists with Jetpack Compose or Flutter",
+       "Save data on the phone with Room or SQLite",
+       "Call an online API and show the results"
+      ]
+     },
+     {
+      "title": "Build",
+      "weeks": "Weeks 13 to 20",
+      "items": [
+       "Add login and cloud data with Firebase",
+       "Handle permissions, loading states and errors",
+       "Make your app work on small and large screens"
+      ]
+     },
+     {
+      "title": "Get hired",
+      "weeks": "Weeks 21 to 28",
+      "items": [
+       "Prepare a store-ready build and screenshots",
+       "Practise Kotlin or Dart interview questions",
+       "Apply for internships and junior roles"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "name": "Android Developers courses",
+      "url": "https://developer.android.com/courses",
+      "price": "Free",
+      "desc": "Official Google courses for Android."
+     },
+     {
+      "name": "Kotlin documentation",
+      "url": "https://kotlinlang.org/docs/home.html",
+      "price": "Free",
+      "desc": "Learn Kotlin from the language team."
+     },
+     {
+      "name": "Jetpack Compose",
+      "url": "https://developer.android.com/jetpack/compose",
+      "price": "Free",
+      "desc": "Modern Android UI toolkit with tutorials."
+     },
+     {
+      "name": "Flutter documentation",
+      "url": "https://docs.flutter.dev/",
+      "price": "Free",
+      "desc": "Build Android and iOS apps from one codebase."
+     },
+     {
+      "name": "Firebase documentation",
+      "url": "https://firebase.google.com/docs",
+      "price": "Free + paid",
+      "desc": "Login, database and hosting for apps."
+     }
+    ],
+    "projects": [
+     {
+      "level": "Beginner",
+      "title": "Tip calculator",
+      "desc": "Enter a bill and a tip percentage and show the total with a clean layout.",
+      "publish": "GitHub"
+     },
+     {
+      "level": "Intermediate",
+      "title": "Expense tracker",
+      "desc": "Add expenses by category, save them on the phone and show a monthly chart.",
+      "publish": "GitHub with screenshots in the README"
+     },
+     {
+      "level": "Portfolio",
+      "title": "Habit tracker with reminders",
+      "desc": "Users add habits, tick them daily and see streaks. Add notifications and cloud backup with Firebase.",
+      "publish": "Play Store internal test link or APK, plus a demo video"
+     }
+    ]
+   },
+   "quiz": [
+    {
+     "q": "Which language does Google prefer for new Android apps?",
+     "options": [
+      "Kotlin",
+      "COBOL",
+      "Perl",
+      "Ruby"
+     ],
+     "explanation": "Android development is Kotlin-first."
+    },
+    {
+     "q": "What is Jetpack Compose?",
+     "options": [
+      "A modern toolkit for building Android screens",
+      "A database",
+      "A testing cloud",
+      "A version control tool"
+     ],
+     "explanation": "Compose describes screens with Kotlin code."
+    },
+    {
+     "q": "Which Google framework builds Android and iOS apps from one codebase?",
+     "options": [
+      "Flutter",
+      "Django",
+      "Laravel",
+      "Spring"
+     ],
+     "explanation": "Flutter uses the Dart language."
+    },
+    {
+     "q": "Why save data on the device with Room or SQLite?",
+     "options": [
+      "The app can work without internet",
+      "It makes the screen brighter",
+      "It removes the need for permissions",
+      "It speeds up the battery"
+     ],
+     "explanation": "Local storage lets an app keep working offline."
+    },
+    {
+     "q": "What does an app permission do?",
+     "options": [
+      "Asks the user to allow access, such as to the camera or location",
+      "Compresses the app",
+      "Signs the app with a password",
+      "Removes ads"
+     ],
+     "explanation": "Apps must ask before using sensitive features."
+    }
+   ]
+  },
+  {
+   "id": "cyber",
+   "industry": "tech",
+   "group": "Security & cloud",
+   "name": "Cybersecurity Analyst",
+   "what": "Protects computers and information from hackers. You watch for attacks and fix weak spots.",
+   "fit": "You like puzzles and thinking like a hacker, but to defend.",
+   "kw": [
+    "Networking",
+    "TCP/IP",
+    "Linux",
+    "Firewall",
+    "SIEM",
+    "Splunk",
+    "Wireshark",
+    "Nmap",
+    "OWASP",
+    "Penetration testing",
+    "Vulnerability",
+    "Cryptography",
+    "Incident response",
+    "Kali Linux"
+   ],
+   "path": [
+    "Learn how computer networks work, and basic Linux.",
+    "Learn common attacks and how to stop them.",
+    "Practise on safe, legal sites such as TryHackMe.",
+    "Learn to read security logs.",
+    "Write short reports about what you found."
+   ],
+   "project": "Set up a practice computer on your own laptop, scan it for weak spots and write a report. Only test computers you own or have written permission to test.",
+   "guide": {
+    "time": "6 to 12 months",
+    "level": "Harder",
+    "jobs": [
+     "Security Analyst (SOC)",
+     "Junior Penetration Tester",
+     "Cybersecurity Associate"
+    ],
+    "days": [
+     "Learn the CIA triad: confidentiality, integrity and availability.",
+     "Create a free TryHackMe account and finish a starter room.",
+     "Learn how an IP address, DNS and a port work.",
+     "Install a Linux virtual machine and practise basic commands.",
+     "Learn the top web risks on the OWASP Top 10 page.",
+     "Use Wireshark to look at your own network traffic.",
+     "Write a short note on one attack type and how to stop it."
+    ],
+    "tools": [
+     "Linux (Kali or Ubuntu) in a virtual machine",
+     "Wireshark",
+     "Nmap",
+     "Burp Suite Community",
+     "A notes tool for reports"
+    ],
+    "interview": [
+     "How the TCP three-way handshake works",
+     "What the difference between a vulnerability and an exploit is",
+     "What happens during an incident response",
+     "How you would secure a web login page",
+     "What symmetric and asymmetric encryption are",
+     "How you would investigate a suspicious email"
+    ],
+    "stages": [
+     {
+      "title": "Foundations",
+      "weeks": "Weeks 1 to 6",
+      "items": [
+       "Learn networking: TCP/IP, DNS, HTTP and ports",
+       "Learn Linux and the command line",
+       "Learn security basics: CIA triad, passwords and encryption"
+      ]
+     },
+     {
+      "title": "Core skills",
+      "weeks": "Weeks 7 to 16",
+      "items": [
+       "Learn common attacks and defences with the OWASP Top 10",
+       "Learn to scan and analyse with Nmap and Wireshark",
+       "Learn to read logs and use a SIEM tool"
+      ]
+     },
+     {
+      "title": "Build",
+      "weeks": "Weeks 17 to 28",
+      "items": [
+       "Complete many legal lab rooms on TryHackMe or similar",
+       "Build a home lab with your own practice machines",
+       "Write public reports of what you found"
+      ]
+     },
+     {
+      "title": "Get hired",
+      "weeks": "Weeks 29 to 40",
+      "items": [
+       "Prepare for a beginner certificate such as CompTIA Security+",
+       "Practise interview questions on networking and incident response",
+       "Apply for SOC analyst and internship roles"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "name": "TryHackMe",
+      "url": "https://tryhackme.com/",
+      "price": "Free + paid",
+      "desc": "Guided, beginner friendly hacking labs in your browser."
+     },
+     {
+      "name": "OWASP Top 10",
+      "url": "https://owasp.org/www-project-top-ten/",
+      "price": "Free",
+      "desc": "The standard list of top web security risks."
+     },
+     {
+      "name": "PortSwigger Web Security Academy",
+      "url": "https://portswigger.net/web-security",
+      "price": "Free",
+      "desc": "High quality free web security lessons and labs."
+     },
+     {
+      "name": "OverTheWire wargames",
+      "url": "https://overthewire.org/wargames/",
+      "price": "Free",
+      "desc": "Fun Linux and security puzzle games."
+     },
+     {
+      "name": "Professor Messer",
+      "url": "https://www.professormesser.com/",
+      "price": "Free + paid",
+      "desc": "Free video courses for security certificates."
+     },
+     {
+      "name": "Nmap",
+      "url": "https://nmap.org/",
+      "price": "Free",
+      "desc": "The tool and guide for scanning networks."
+     }
+    ],
+    "projects": [
+     {
+      "level": "Beginner",
+      "title": "Password and phishing awareness guide",
+      "desc": "Make a short illustrated guide that helps a non-technical person spot phishing and set strong passwords.",
+      "publish": "A PDF or blog post on GitHub"
+     },
+     {
+      "level": "Intermediate",
+      "title": "Home lab and scan report",
+      "desc": "Set up a practice virtual machine on your own laptop, scan it with Nmap and write a clear report of the weak spots.",
+      "publish": "GitHub README or blog. Test only systems you own."
+     },
+     {
+      "level": "Portfolio",
+      "title": "Web app vulnerability write-ups",
+      "desc": "Complete 5 labs from PortSwigger or TryHackMe and write each as a short report: the problem, how it works, how to fix it.",
+      "publish": "A public blog or GitHub repo"
+     }
+    ]
+   },
+   "quiz": [
+    {
+     "q": "What does the CIA triad stand for in security?",
+     "options": [
+      "Confidentiality, Integrity, Availability",
+      "Control, Inspect, Alert",
+      "Cipher, Identity, Access",
+      "Crypto, Internet, Authentication"
+     ],
+     "explanation": "These three goals guide most security decisions."
+    },
+    {
+     "q": "What is phishing?",
+     "options": [
+      "Tricking people into giving up information with fake messages",
+      "A kind of firewall",
+      "Encrypting a hard drive",
+      "Scanning open ports"
+     ],
+     "explanation": "Phishing attacks the person, not the computer."
+    },
+    {
+     "q": "Which tool is widely used to scan a network for hosts and open ports?",
+     "options": [
+      "Nmap",
+      "Figma",
+      "Excel",
+      "Photoshop"
+     ],
+     "explanation": "Nmap maps what is reachable on a network."
+    },
+    {
+     "q": "What is SQL injection?",
+     "options": [
+      "Adding malicious SQL through an input to change a database query",
+      "Speeding up a query",
+      "A backup method",
+      "A type of VPN"
+     ],
+     "explanation": "It happens when user input is not handled safely."
+    },
+    {
+     "q": "Where is it safe and legal to practise hacking?",
+     "options": [
+      "Labs such as TryHackMe or machines you own",
+      "A school network without permission",
+      "A random company website",
+      "A neighbour's Wi-Fi"
+     ],
+     "explanation": "Always get written permission before testing any system."
+    }
+   ]
+  },
+  {
+   "id": "devops",
+   "industry": "tech",
+   "group": "Security & cloud",
+   "name": "DevOps / Cloud Engineer",
+   "what": "Sets up the tools that put software online and keep it running, using cloud services such as AWS.",
+   "fit": "You like automating boring work and keeping things running smoothly.",
+   "kw": [
+    "Linux",
+    "AWS",
+    "Azure",
+    "GCP",
+    "Docker",
+    "Kubernetes",
+    "Terraform",
+    "CI/CD",
+    "Jenkins",
+    "GitHub Actions",
+    "Bash",
+    "Git",
+    "Ansible",
+    "Monitoring",
+    "Networking"
+   ],
+   "path": [
+    "Learn Linux and the command line.",
+    "Learn Git and how code is tested and released automatically.",
+    "Learn Docker. It packs an app so it runs the same everywhere.",
+    "Learn one cloud, such as AWS or Azure.",
+    "Make a release happen automatically when code changes."
+   ],
+   "project": "Set up a system that tests a small app and puts it online every time you change the code.",
+   "guide": {
+    "time": "6 to 10 months",
+    "level": "Medium to harder",
+    "jobs": [
+     "DevOps Engineer",
+     "Cloud Engineer",
+     "Site Reliability Engineer (junior)"
+    ],
+    "days": [
+     "Install Linux (or WSL on Windows) and learn ten basic commands.",
+     "Write a small Bash script that makes a folder and a file.",
+     "Make a GitHub repo and push a small project.",
+     "Install Docker and run your first container.",
+     "Write a Dockerfile for a simple app.",
+     "Create a free cloud account and read how billing alerts work.",
+     "Write a short plan for a simple automatic deployment."
+    ],
+    "tools": [
+     "Linux and Bash",
+     "Git and GitHub",
+     "Docker",
+     "Terraform",
+     "A free cloud account"
+    ],
+    "interview": [
+     "The difference between a container and a virtual machine",
+     "What a CI/CD pipeline does step by step",
+     "What Infrastructure as Code means",
+     "How you would roll back a bad release",
+     "How you would monitor a running service",
+     "What a load balancer does"
+    ],
+    "stages": [
+     {
+      "title": "Foundations",
+      "weeks": "Weeks 1 to 5",
+      "items": [
+       "Learn Linux and the command line",
+       "Learn networking basics and Git",
+       "Learn a scripting language: Bash or Python"
+      ]
+     },
+     {
+      "title": "Core skills",
+      "weeks": "Weeks 6 to 14",
+      "items": [
+       "Learn Docker and containers",
+       "Learn CI/CD with GitHub Actions",
+       "Learn one cloud: AWS, Azure or Google Cloud"
+      ]
+     },
+     {
+      "title": "Build",
+      "weeks": "Weeks 15 to 26",
+      "items": [
+       "Learn Terraform for infrastructure as code",
+       "Learn Kubernetes basics",
+       "Add monitoring and logs to a project"
+      ]
+     },
+     {
+      "title": "Get hired",
+      "weeks": "Weeks 27 to 36",
+      "items": [
+       "Prepare a cloud entry certificate such as AWS Cloud Practitioner",
+       "Show two automation projects on GitHub",
+       "Apply for cloud and DevOps internships and junior roles"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "name": "Linux Journey",
+      "url": "https://linuxjourney.com/",
+      "price": "Free",
+      "desc": "Friendly lessons from beginner to advanced Linux."
+     },
+     {
+      "name": "Docker get started",
+      "url": "https://docs.docker.com/get-started/",
+      "price": "Free",
+      "desc": "Official first steps with containers."
+     },
+     {
+      "name": "GitHub Actions documentation",
+      "url": "https://docs.github.com/en/actions",
+      "price": "Free",
+      "desc": "Automate tests and deployments."
+     },
+     {
+      "name": "Kubernetes tutorials",
+      "url": "https://kubernetes.io/docs/tutorials/",
+      "price": "Free",
+      "desc": "Official hands-on lessons."
+     },
+     {
+      "name": "Terraform tutorials",
+      "url": "https://developer.hashicorp.com/terraform/tutorials",
+      "price": "Free",
+      "desc": "Learn infrastructure as code."
+     },
+     {
+      "name": "AWS Skill Builder",
+      "url": "https://skillbuilder.aws/",
+      "price": "Free + paid",
+      "desc": "Cloud lessons and certificate prep."
+     }
+    ],
+    "projects": [
+     {
+      "level": "Beginner",
+      "title": "Containerise an app",
+      "desc": "Take a small web app, write a Dockerfile and run it in a container.",
+      "publish": "GitHub README with steps"
+     },
+     {
+      "level": "Intermediate",
+      "title": "Automatic test and build pipeline",
+      "desc": "Use GitHub Actions to test your app and build a Docker image on every push.",
+      "publish": "GitHub repo with a green build badge"
+     },
+     {
+      "level": "Portfolio",
+      "title": "One-command cloud deployment",
+      "desc": "Use Terraform and a pipeline to create a server or container service and deploy an app to the cloud. Add basic monitoring.",
+      "publish": "GitHub plus an architecture diagram"
+     }
+    ]
+   },
+   "quiz": [
+    {
+     "q": "What does CI/CD mean?",
+     "options": [
+      "Continuous Integration and Continuous Delivery or Deployment",
+      "Code Inspect and Code Debug",
+      "Cloud Install and Cloud Deploy",
+      "Central Index and Central Database"
+     ],
+     "explanation": "CI/CD automatically tests and ships code changes."
+    },
+    {
+     "q": "What does Docker do?",
+     "options": [
+      "Packages an app and its dependencies into a container",
+      "Designs logos",
+      "Writes SQL queries",
+      "Edits video"
+     ],
+     "explanation": "Containers run the same on any machine."
+    },
+    {
+     "q": "Which tool manages and scales containers across many machines?",
+     "options": [
+      "Kubernetes",
+      "Excel",
+      "Canva",
+      "Tableau"
+     ],
+     "explanation": "Kubernetes orchestrates containers."
+    },
+    {
+     "q": "What is infrastructure as code?",
+     "options": [
+      "Managing servers and cloud resources with config files, such as Terraform",
+      "Writing code directly on servers by hand",
+      "Drawing network diagrams",
+      "Buying hardware"
+     ],
+     "explanation": "It makes setups repeatable and reviewable."
+    },
+    {
+     "q": "Which Linux command lists the files in a folder?",
+     "options": [
+      "ls",
+      "mv",
+      "rm",
+      "cd"
+     ],
+     "explanation": "ls lists, cd changes folder, mv moves and rm removes."
+    }
+   ]
+  },
+  {
+   "id": "analyst",
+   "industry": "data",
+   "group": "Analysis",
+   "name": "Data Analyst",
+   "what": "Uses numbers to answer business questions, then shows the answer in charts and reports.",
+   "fit": "You like finding out why something happened and explaining it simply.",
+   "kw": [
+    "SQL",
+    "Excel",
+    "Tableau",
+    "Power BI",
+    "Python",
+    "Pandas",
+    "Statistics",
+    "Dashboard",
+    "Data visualization",
+    "Data cleaning",
+    "Looker",
+    "Google Sheets"
+   ],
+   "path": [
+    "Learn SQL. It pulls information out of a database.",
+    "Learn Excel tables and formulas.",
+    "Learn Python with pandas, and basic statistics.",
+    "Build 2 dashboards in Tableau or Power BI.",
+    "Write short stories about what the data shows."
+   ],
+   "project": "Take a public sales dataset, find out why sales dropped in one month, and share a dashboard with your advice.",
+   "guide": {
+    "time": "3 to 6 months",
+    "level": "Beginner friendly",
+    "jobs": [
+     "Data Analyst",
+     "Business Intelligence Analyst",
+     "Reporting Analyst"
+    ],
+    "days": [
+     "Open Excel or Google Sheets and sort and filter a small dataset.",
+     "Learn SUM, AVERAGE and a pivot table.",
+     "Install Tableau Public or Power BI Desktop (free) and make one bar chart.",
+     "Learn SQL SELECT and WHERE on SQLBolt.",
+     "Pick a free dataset from Kaggle that you find interesting.",
+     "Write three questions that dataset could answer.",
+     "Make one chart that answers one question and write one sentence about it."
+    ],
+    "tools": [
+     "Excel or Google Sheets",
+     "SQL (SQLite or PostgreSQL)",
+     "Python with pandas",
+     "Tableau Public or Power BI",
+     "Jupyter Notebook"
+    ],
+    "interview": [
+     "The difference between WHERE and HAVING in SQL",
+     "How you handle missing values",
+     "How you would choose the right chart",
+     "What a JOIN is and the types of JOIN",
+     "Walk through a dashboard you built",
+     "How you would check if a number looks wrong"
+    ],
+    "stages": [
+     {
+      "title": "Foundations",
+      "weeks": "Weeks 1 to 4",
+      "items": [
+       "Learn Excel: formulas, pivot tables and charts",
+       "Learn basic statistics: mean, median and spread",
+       "Learn SQL: SELECT, WHERE, GROUP BY and JOIN"
+      ]
+     },
+     {
+      "title": "Core skills",
+      "weeks": "Weeks 5 to 10",
+      "items": [
+       "Learn Python with pandas for cleaning data",
+       "Learn Tableau Public or Power BI for dashboards",
+       "Learn to tell a story with charts"
+      ]
+     },
+     {
+      "title": "Build",
+      "weeks": "Weeks 11 to 16",
+      "items": [
+       "Make three dashboards from real data",
+       "Write a short insight summary for each",
+       "Publish them on Tableau Public and GitHub"
+      ]
+     },
+     {
+      "title": "Get hired",
+      "weeks": "Weeks 17 to 24",
+      "items": [
+       "Practise SQL and Excel interview questions",
+       "Write a resume with numbers for your project impact",
+       "Apply for analyst internships"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "name": "SQLBolt",
+      "url": "https://sqlbolt.com/",
+      "price": "Free",
+      "desc": "Short interactive SQL lessons."
+     },
+     {
+      "name": "Kaggle Learn",
+      "url": "https://www.kaggle.com/learn",
+      "price": "Free",
+      "desc": "Short courses on Python, pandas, SQL and data visualisation."
+     },
+     {
+      "name": "Tableau Public",
+      "url": "https://public.tableau.com/",
+      "price": "Free",
+      "desc": "Free tool to build and publish dashboards."
+     },
+     {
+      "name": "Microsoft Power BI learning",
+      "url": "https://learn.microsoft.com/en-us/training/powerplatform/power-bi",
+      "price": "Free",
+      "desc": "Official Power BI lessons."
+     },
+     {
+      "name": "Google Data Analytics Certificate",
+      "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
+      "price": "Paid (financial aid available)",
+      "desc": "A beginner course with a certificate."
+     },
+     {
+      "name": "Kaggle datasets",
+      "url": "https://www.kaggle.com/datasets",
+      "price": "Free",
+      "desc": "Thousands of free datasets to practise on."
+     }
+    ],
+    "projects": [
+     {
+      "level": "Beginner",
+      "title": "Sales dashboard",
+      "desc": "Use a free sales dataset. Show sales by month, product and region in a one-page dashboard.",
+      "publish": "Tableau Public"
+     },
+     {
+      "level": "Intermediate",
+      "title": "IPL or cricket performance analysis",
+      "desc": "Clean cricket data in pandas, find top batters and bowlers by season and show a story with 4 or 5 charts.",
+      "publish": "GitHub notebook plus Tableau Public"
+     },
+     {
+      "level": "Portfolio",
+      "title": "Real-world business case study",
+      "desc": "Pick a topic such as food delivery or rent in Mumbai. Ask a business question, clean data, analyse with SQL and Python, then recommend actions.",
+      "publish": "GitHub README with a clear conclusion, and a dashboard link on your resume"
+     }
+    ]
+   },
+   "quiz": [
+    {
+     "q": "Which SQL clause groups rows so you can count or total them?",
+     "options": [
+      "GROUP BY",
+      "ORDER BY",
+      "LIMIT",
+      "DISTINCT"
+     ],
+     "explanation": "GROUP BY collects rows with the same value."
+    },
+    {
+     "q": "What is a pivot table used for?",
+     "options": [
+      "Summarising data by categories",
+      "Sending emails",
+      "Drawing logos",
+      "Encrypting files"
+     ],
+     "explanation": "Pivots total and count data quickly."
+    },
+    {
+     "q": "Which measure is least affected by extreme values?",
+     "options": [
+      "Median",
+      "Mean",
+      "Sum",
+      "Range"
+     ],
+     "explanation": "One huge value can pull the mean but the median stays stable."
+    },
+    {
+     "q": "Which chart is best for showing change over time?",
+     "options": [
+      "Line chart",
+      "Pie chart",
+      "Word cloud",
+      "Scatter map"
+     ],
+     "explanation": "Lines make trends easy to see."
+    },
+    {
+     "q": "Why do analysts clean data first?",
+     "options": [
+      "Wrong or missing values lead to wrong conclusions",
+      "To make files bigger",
+      "To change the colours",
+      "To avoid using SQL"
+     ],
+     "explanation": "Bad data gives bad answers."
+    }
+   ]
+  },
+  {
+   "id": "scientist",
+   "industry": "data",
+   "group": "Science",
+   "name": "Data Scientist",
+   "what": "Uses maths and computers to predict things, such as which customers might leave.",
+   "fit": "You like maths, experiments and checking if a pattern is real.",
+   "kw": [
+    "Python",
+    "Pandas",
+    "NumPy",
+    "Scikit-learn",
+    "Machine learning",
+    "Statistics",
+    "SQL",
+    "Jupyter",
+    "XGBoost",
+    "Matplotlib",
+    "Seaborn",
+    "Regression",
+    "Classification",
+    "Feature engineering"
+   ],
+   "path": [
+    "Learn Python, pandas and NumPy.",
+    "Learn statistics and probability.",
+    "Learn machine learning (teaching computers from examples).",
+    "Practise on messy, real data.",
+    "Put one prediction tool online."
+   ],
+   "project": "Predict which customers will leave a company using a public dataset, compare three methods, and share the results online.",
+   "guide": {
+    "time": "9 to 15 months",
+    "level": "Harder",
+    "jobs": [
+     "Junior Data Scientist",
+     "Data Science Intern",
+     "Machine Learning Analyst"
+    ],
+    "days": [
+     "Install Python and Jupyter Notebook.",
+     "Load a CSV with pandas and print the first rows.",
+     "Make a histogram and a scatter plot.",
+     "Learn mean, median, standard deviation and correlation.",
+     "Train a simple model (linear regression) on a small dataset.",
+     "Check how good the model is with a train and test split.",
+     "Write what the model learned in simple words."
+    ],
+    "tools": [
+     "Python",
+     "Jupyter Notebook",
+     "pandas and NumPy",
+     "scikit-learn",
+     "Git and GitHub"
+    ],
+    "interview": [
+     "Bias versus variance",
+     "How you handle imbalanced data",
+     "How you check a model fairly",
+     "The difference between supervised and unsupervised learning",
+     "Explain a model you built to a manager",
+     "What a p-value tells you"
+    ],
+    "stages": [
+     {
+      "title": "Foundations",
+      "weeks": "Weeks 1 to 8",
+      "items": [
+       "Learn Python and pandas",
+       "Learn statistics and probability basics",
+       "Learn SQL"
+      ]
+     },
+     {
+      "title": "Core skills",
+      "weeks": "Weeks 9 to 20",
+      "items": [
+       "Learn scikit-learn: regression, classification and clustering",
+       "Learn feature engineering and model checking",
+       "Learn data visualisation with matplotlib or seaborn"
+      ]
+     },
+     {
+      "title": "Build",
+      "weeks": "Weeks 21 to 34",
+      "items": [
+       "Do three end-to-end projects with real messy data",
+       "Compete in one beginner Kaggle competition",
+       "Explain results to a non-technical reader"
+      ]
+     },
+     {
+      "title": "Get hired",
+      "weeks": "Weeks 35 to 52",
+      "items": [
+       "Build a portfolio with 3 clear projects",
+       "Practise statistics, SQL and ML interview questions",
+       "Apply for data science internships"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "name": "Kaggle Learn",
+      "url": "https://www.kaggle.com/learn",
+      "price": "Free",
+      "desc": "Short courses on Python, pandas, ML and more."
+     },
+     {
+      "name": "scikit-learn user guide",
+      "url": "https://scikit-learn.org/stable/user_guide.html",
+      "price": "Free",
+      "desc": "The best reference for classic machine learning."
+     },
+     {
+      "name": "Khan Academy Statistics",
+      "url": "https://www.khanacademy.org/math/statistics-probability",
+      "price": "Free",
+      "desc": "Simple statistics and probability lessons."
+     },
+     {
+      "name": "fast.ai",
+      "url": "https://www.fast.ai/",
+      "price": "Free",
+      "desc": "Practical, code first deep learning courses."
+     },
+     {
+      "name": "Machine Learning Specialization (Coursera)",
+      "url": "https://www.coursera.org/specializations/machine-learning-introduction",
+      "price": "Paid (financial aid available)",
+      "desc": "A well known beginner ML course."
+     },
+     {
+      "name": "pandas documentation",
+      "url": "https://pandas.pydata.org/docs/",
+      "price": "Free",
+      "desc": "Reference for data handling in Python."
+     }
+    ],
+    "projects": [
+     {
+      "level": "Beginner",
+      "title": "House price predictor",
+      "desc": "Train a regression model on a public housing dataset and explain which features matter most.",
+      "publish": "GitHub notebook"
+     },
+     {
+      "level": "Intermediate",
+      "title": "Customer churn model",
+      "desc": "Predict which customers will leave. Compare two models and explain the results in plain words.",
+      "publish": "GitHub notebook and a short blog post"
+     },
+     {
+      "level": "Portfolio",
+      "title": "End-to-end project with a small web app",
+      "desc": "Collect or choose real data, clean it, build a model, check it honestly, and show it in a simple Streamlit app.",
+      "publish": "Streamlit Community Cloud plus GitHub README"
+     }
+    ]
+   },
+   "quiz": [
+    {
+     "q": "What is overfitting?",
+     "options": [
+      "A model that memorises training data and does badly on new data",
+      "A model that is too small",
+      "A very fast model",
+      "A model with no data"
+     ],
+     "explanation": "Good models work on data they have not seen."
+    },
+    {
+     "q": "Why split data into train and test sets?",
+     "options": [
+      "To check performance on unseen data",
+      "To make the file smaller",
+      "To remove outliers",
+      "To speed up the computer"
+     ],
+     "explanation": "The test set shows how the model may behave in real use."
+    },
+    {
+     "q": "Which task is classification?",
+     "options": [
+      "Predicting if an email is spam",
+      "Predicting tomorrow's temperature in degrees",
+      "Grouping customers without labels",
+      "Compressing images"
+     ],
+     "explanation": "Classification predicts a category."
+    },
+    {
+     "q": "What does correlation measure?",
+     "options": [
+      "How two variables move together",
+      "The size of a dataset",
+      "The speed of a model",
+      "The number of rows"
+     ],
+     "explanation": "Correlation does not prove cause."
+    },
+    {
+     "q": "Which library is most used for classic machine learning in Python?",
+     "options": [
+      "scikit-learn",
+      "Flask",
+      "Pillow",
+      "Selenium"
+     ],
+     "explanation": "scikit-learn has many ready models."
+    }
+   ]
+  },
+  {
+   "id": "dataeng",
+   "industry": "data",
+   "group": "Engineering",
+   "name": "Data Engineer",
+   "what": "Builds the pipes that carry data from many places into one place, so others can use it.",
+   "fit": "You like building systems that keep working without problems.",
+   "kw": [
+    "SQL",
+    "Python",
+    "Spark",
+    "Airflow",
+    "ETL",
+    "Kafka",
+    "AWS",
+    "Hadoop",
+    "Data warehouse",
+    "Snowflake",
+    "BigQuery",
+    "PostgreSQL",
+    "Pipelines",
+    "dbt"
+   ],
+   "path": [
+    "Get strong in SQL and Python.",
+    "Learn how databases and data warehouses work.",
+    "Build a pipeline that runs on a schedule.",
+    "Learn Spark and one cloud service.",
+    "Build a full pipeline that sends an alert if it fails."
+   ],
+   "project": "Build a pipeline that collects free online data every night, cleans it, stores it, and alerts you if something breaks.",
+   "guide": {
+    "time": "8 to 12 months",
+    "level": "Medium to harder",
+    "jobs": [
+     "Data Engineer",
+     "ETL Developer",
+     "Analytics Engineer"
+    ],
+    "days": [
+     "Install Python and PostgreSQL (or use SQLite).",
+     "Write SQL to create a table and insert rows.",
+     "Read a CSV with Python and print its size.",
+     "Clean one column with pandas.",
+     "Write the cleaned data into a database table.",
+     "Put those steps in one Python script.",
+     "Run the script again and make sure it does not create duplicates."
+    ],
+    "tools": [
+     "Python",
+     "SQL and PostgreSQL",
+     "Airflow",
+     "Docker",
+     "A cloud free tier"
+    ],
+    "interview": [
+     "What ETL and ELT are and when to use each",
+     "What partitioning is",
+     "How you handle bad data in a pipeline",
+     "How you make a pipeline safe to rerun",
+     "The difference between a data lake and a warehouse",
+     "How you would monitor a failing job"
+    ],
+    "stages": [
+     {
+      "title": "Foundations",
+      "weeks": "Weeks 1 to 6",
+      "items": [
+       "Learn Python and SQL well",
+       "Learn Linux and Git",
+       "Learn database design: tables, keys and normalisation"
+      ]
+     },
+     {
+      "title": "Core skills",
+      "weeks": "Weeks 7 to 16",
+      "items": [
+       "Learn data pipelines: extract, transform and load",
+       "Learn Apache Airflow or a similar scheduler",
+       "Learn data warehouses such as BigQuery or Snowflake"
+      ]
+     },
+     {
+      "title": "Build",
+      "weeks": "Weeks 17 to 30",
+      "items": [
+       "Learn Spark or dbt basics",
+       "Learn one cloud: AWS, Azure or Google Cloud",
+       "Build a scheduled pipeline with tests"
+      ]
+     },
+     {
+      "title": "Get hired",
+      "weeks": "Weeks 31 to 44",
+      "items": [
+       "Show two pipeline projects with diagrams",
+       "Practise SQL and system design questions",
+       "Apply for data engineering internships and junior roles"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "name": "Data Engineering Zoomcamp",
+      "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+      "price": "Free",
+      "desc": "A free hands-on course covering pipelines, warehouses and more."
+     },
+     {
+      "name": "SQLBolt",
+      "url": "https://sqlbolt.com/",
+      "price": "Free",
+      "desc": "Learn SQL basics."
+     },
+     {
+      "name": "PostgreSQL documentation",
+      "url": "https://www.postgresql.org/docs/",
+      "price": "Free",
+      "desc": "The reference for a popular database."
+     },
+     {
+      "name": "Apache Airflow documentation",
+      "url": "https://airflow.apache.org/docs/",
+      "price": "Free",
+      "desc": "Learn to schedule and monitor pipelines."
+     },
+     {
+      "name": "dbt Learn",
+      "url": "https://learn.getdbt.com/",
+      "price": "Free",
+      "desc": "Official dbt lessons for transforming data in a warehouse."
+     },
+     {
+      "name": "Google BigQuery documentation",
+      "url": "https://cloud.google.com/bigquery/docs",
+      "price": "Free tier",
+      "desc": "Learn a cloud data warehouse."
+     }
+    ],
+    "projects": [
+     {
+      "level": "Beginner",
+      "title": "CSV to database loader",
+      "desc": "Read messy CSV files, clean them and load them into a database table safely.",
+      "publish": "GitHub"
+     },
+     {
+      "level": "Intermediate",
+      "title": "Daily weather pipeline",
+      "desc": "Every day, fetch data from a public API, clean it and store it. Schedule it with Airflow or cron.",
+      "publish": "GitHub README with a pipeline diagram"
+     },
+     {
+      "level": "Portfolio",
+      "title": "Warehouse and dashboard",
+      "desc": "Build a pipeline into a cloud warehouse, transform with dbt, add data tests and show results in a dashboard.",
+      "publish": "GitHub, diagram and dashboard link"
+     }
+    ]
+   },
+   "quiz": [
+    {
+     "q": "What does ETL stand for?",
+     "options": [
+      "Extract, Transform, Load",
+      "Edit, Test, Launch",
+      "Enter, Track, Log",
+      "Encrypt, Tag, Lock"
+     ],
+     "explanation": "ETL moves data from sources to a destination."
+    },
+    {
+     "q": "What is a data warehouse?",
+     "options": [
+      "A system designed to store data for analysis",
+      "A machine for printing",
+      "A video editor",
+      "A mobile app"
+     ],
+     "explanation": "Warehouses hold clean, organised data for reports."
+    },
+    {
+     "q": "What does idempotent mean for a pipeline?",
+     "options": [
+      "Running it twice gives the same result",
+      "It runs very fast",
+      "It never fails",
+      "It uses no memory"
+     ],
+     "explanation": "This avoids duplicate rows on reruns."
+    },
+    {
+     "q": "Which tool is commonly used to schedule data pipelines?",
+     "options": [
+      "Airflow",
+      "Figma",
+      "Blender",
+      "Unity"
+     ],
+     "explanation": "Airflow runs tasks in order on a schedule."
+    },
+    {
+     "q": "What is a primary key?",
+     "options": [
+      "A column that uniquely identifies each row",
+      "A password",
+      "A chart type",
+      "An index of images"
+     ],
+     "explanation": "Each row has a unique id."
+    }
+   ]
+  },
+  {
+   "id": "mleng",
+   "industry": "data",
+   "group": "Science",
+   "name": "ML / AI Engineer",
+   "what": "Builds smart programs that learn from data, such as apps that understand text or pictures, and puts them in real products.",
+   "fit": "You like both building software and working with AI.",
+   "kw": [
+    "Python",
+    "TensorFlow",
+    "PyTorch",
+    "Machine learning",
+    "Deep learning",
+    "NLP",
+    "Transformers",
+    "Hugging Face",
+    "Docker",
+    "FastAPI",
+    "MLOps",
+    "Computer vision",
+    "OpenCV",
+    "LLM"
+   ],
+   "path": [
+    "Get strong in Python and Git.",
+    "Learn the basics of machine learning.",
+    "Learn deep learning with PyTorch or TensorFlow.",
+    "Learn to turn a model into an online service.",
+    "Put one model online and watch how it performs."
+   ],
+   "project": "Train a program that sorts text or pictures, put it online as a service, and record what it predicts.",
+   "guide": {
+    "time": "10 to 15 months",
+    "level": "Harder",
+    "jobs": [
+     "Machine Learning Engineer (junior)",
+     "AI Developer",
+     "Applied AI Engineer"
+    ],
+    "days": [
+     "Install Python and Jupyter Notebook.",
+     "Train a small classifier with scikit-learn.",
+     "Save the trained model to a file.",
+     "Load the model in a script and make a prediction.",
+     "Wrap the prediction in a small API with FastAPI.",
+     "Test the API with a few examples.",
+     "Write down what could go wrong in real use."
+    ],
+    "tools": [
+     "Python",
+     "PyTorch",
+     "scikit-learn",
+     "Hugging Face",
+     "Docker and FastAPI"
+    ],
+    "interview": [
+     "How gradient descent works",
+     "What overfitting is and how to reduce it",
+     "How you would deploy a model",
+     "How you check a model after release",
+     "The difference between precision and recall",
+     "What a transformer model does in simple words"
+    ],
+    "stages": [
+     {
+      "title": "Foundations",
+      "weeks": "Weeks 1 to 8",
+      "items": [
+       "Learn Python well and basic maths: vectors and probability",
+       "Learn Git and Linux",
+       "Learn scikit-learn and model checking"
+      ]
+     },
+     {
+      "title": "Core skills",
+      "weeks": "Weeks 9 to 20",
+      "items": [
+       "Learn deep learning with PyTorch",
+       "Learn one area: language, images or recommendations",
+       "Learn to use pretrained models from Hugging Face"
+      ]
+     },
+     {
+      "title": "Build",
+      "weeks": "Weeks 21 to 36",
+      "items": [
+       "Serve a model through an API",
+       "Package it with Docker",
+       "Track experiments and test the results"
+      ]
+     },
+     {
+      "title": "Get hired",
+      "weeks": "Weeks 37 to 52",
+      "items": [
+       "Show two deployed AI projects",
+       "Practise ML and coding interview questions",
+       "Apply for AI and ML internships"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "name": "fast.ai",
+      "url": "https://www.fast.ai/",
+      "price": "Free",
+      "desc": "Practical deep learning for coders."
+     },
+     {
+      "name": "PyTorch tutorials",
+      "url": "https://pytorch.org/tutorials/",
+      "price": "Free",
+      "desc": "Official lessons for PyTorch."
+     },
+     {
+      "name": "Hugging Face course",
+      "url": "https://huggingface.co/learn",
+      "price": "Free",
+      "desc": "Learn to use modern language and vision models."
+     },
+     {
+      "name": "Machine Learning Specialization (Coursera)",
+      "url": "https://www.coursera.org/specializations/machine-learning-introduction",
+      "price": "Paid (financial aid available)",
+      "desc": "A well known beginner ML course."
+     },
+     {
+      "name": "3Blue1Brown neural networks",
+      "url": "https://www.3blue1brown.com/topics/neural-networks",
+      "price": "Free",
+      "desc": "Visual explanations of how neural networks work."
+     },
+     {
+      "name": "FastAPI tutorial",
+      "url": "https://fastapi.tiangolo.com/tutorial/",
+      "price": "Free",
+      "desc": "Serve models as an API."
+     }
+    ],
+    "projects": [
+     {
+      "level": "Beginner",
+      "title": "Image classifier",
+      "desc": "Train a model to tell two kinds of images apart and show the accuracy honestly.",
+      "publish": "GitHub notebook"
+     },
+     {
+      "level": "Intermediate",
+      "title": "Text sentiment API",
+      "desc": "Fine-tune a small pretrained model on reviews and serve it through an API.",
+      "publish": "Hugging Face Spaces or Render"
+     },
+     {
+      "level": "Portfolio",
+      "title": "Deployed AI app",
+      "desc": "Build a useful AI tool, such as a resume or document helper, with a clean web page, tests and a write-up of its limits.",
+      "publish": "Live link plus GitHub README with an architecture diagram"
+     }
+    ]
+   },
+   "quiz": [
+    {
+     "q": "What is a neural network layer made of?",
+     "options": [
+      "Neurons that apply weights to inputs",
+      "Only images",
+      "Only SQL tables",
+      "Browser tabs"
+     ],
+     "explanation": "Layers transform inputs step by step."
+    },
+    {
+     "q": "What does a loss function measure?",
+     "options": [
+      "How wrong the model's predictions are",
+      "How big the dataset is",
+      "How fast the GPU is",
+      "How many users there are"
+     ],
+     "explanation": "Training tries to reduce the loss."
+    },
+    {
+     "q": "Why use a pretrained model?",
+     "options": [
+      "It saves time and data by starting with learned knowledge",
+      "It never makes mistakes",
+      "It needs no code",
+      "It is always bigger"
+     ],
+     "explanation": "Fine-tuning is faster than training from scratch."
+    },
+    {
+     "q": "What is model deployment?",
+     "options": [
+      "Making a model available for real use",
+      "Deleting a model",
+      "Printing results",
+      "Training twice"
+     ],
+     "explanation": "Deployed models serve predictions to users."
+    },
+    {
+     "q": "Which library is popular for deep learning in Python?",
+     "options": [
+      "PyTorch",
+      "jQuery",
+      "Bootstrap",
+      "Sass"
+     ],
+     "explanation": "PyTorch is widely used in research and industry."
+    }
+   ]
+  },
+  {
+   "id": "ux",
+   "industry": "design",
+   "group": "Product design",
+   "name": "UI / UX Designer",
+   "what": "Designs how an app or website looks and feels, so it is easy to use.",
+   "fit": "You like solving problems for real people and care about small details.",
+   "kw": [
+    "Figma",
+    "Wireframe",
+    "Prototype",
+    "User research",
+    "Usability testing",
+    "Design system",
+    "Adobe XD",
+    "Accessibility",
+    "Typography",
+    "User flow",
+    "Interaction design",
+    "Persona"
+   ],
+   "path": [
+    "Learn the basics: layout, colour and letters.",
+    "Learn Figma, the main design tool.",
+    "Learn to talk to users and map their steps.",
+    "Make a clickable prototype and test it with real people.",
+    "Share 3 case studies that show how you worked."
+   ],
+   "project": "Redesign a few screens of a real app, test them with five people, and show the before and after.",
+   "guide": {
+    "time": "4 to 8 months",
+    "level": "Beginner friendly",
+    "jobs": [
+     "UI/UX Designer",
+     "Product Designer",
+     "UX Researcher (junior)"
+    ],
+    "days": [
+     "Create a free Figma account and watch a beginner tour.",
+     "Redraw one screen of an app you use.",
+     "Learn the difference between UX (how it works) and UI (how it looks).",
+     "Talk to one person about a problem they have with an app.",
+     "Sketch three ideas for a better version on paper.",
+     "Turn the best sketch into a Figma screen.",
+     "Ask two people to try it and note where they get stuck."
+    ],
+    "tools": [
+     "Figma",
+     "Pen and paper",
+     "FigJam",
+     "Maze or simple user tests",
+     "Contrast checker"
+    ],
+    "interview": [
+     "Walk me through your design process",
+     "How you decide between two designs",
+     "How you test a design with users",
+     "How you make a design accessible",
+     "How you take feedback you disagree with",
+     "The difference between UX and UI"
+    ],
+    "stages": [
+     {
+      "title": "Foundations",
+      "weeks": "Weeks 1 to 4",
+      "items": [
+       "Learn design basics: layout, colour, type and spacing",
+       "Learn Figma",
+       "Learn what the UX process looks like"
+      ]
+     },
+     {
+      "title": "Core skills",
+      "weeks": "Weeks 5 to 12",
+      "items": [
+       "Learn user research: interviews and simple surveys",
+       "Learn wireframes, flows and clickable prototypes",
+       "Learn accessibility: contrast and text size"
+      ]
+     },
+     {
+      "title": "Build",
+      "weeks": "Weeks 13 to 24",
+      "items": [
+       "Do 2 full case studies from problem to prototype",
+       "Test with real people and improve",
+       "Design for a phone and a computer"
+      ]
+     },
+     {
+      "title": "Get hired",
+      "weeks": "Weeks 25 to 32",
+      "items": [
+       "Publish a portfolio with the case studies",
+       "Practise explaining your design choices",
+       "Apply for design internships"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "name": "Figma learn",
+      "url": "https://help.figma.com/hc/en-us/categories/360002051613-Get-started",
+      "price": "Free",
+      "desc": "Official Figma lessons."
+     },
+     {
+      "name": "Google UX Design Certificate",
+      "url": "https://www.coursera.org/professional-certificates/google-ux-design",
+      "price": "Paid (financial aid available)",
+      "desc": "A beginner course with a certificate."
+     },
+     {
+      "name": "Laws of UX",
+      "url": "https://lawsofux.com/",
+      "price": "Free",
+      "desc": "Short rules about how people use interfaces."
+     },
+     {
+      "name": "Nielsen Norman Group articles",
+      "url": "https://www.nngroup.com/articles/",
+      "price": "Free",
+      "desc": "Trusted research based articles on usability."
+     },
+     {
+      "name": "Refactoring UI",
+      "url": "https://www.refactoringui.com/",
+      "price": "Paid",
+      "desc": "Practical visual design tips."
+     },
+     {
+      "name": "Dribbble",
+      "url": "https://dribbble.com/",
+      "price": "Free",
+      "desc": "Find design ideas and see what others make."
+     }
+    ],
+    "projects": [
+     {
+      "level": "Beginner",
+      "title": "App screen redesign",
+      "desc": "Pick one confusing screen in a real app. Redesign it and explain why each change helps.",
+      "publish": "Figma link and a PDF"
+     },
+     {
+      "level": "Intermediate",
+      "title": "Mini app prototype",
+      "desc": "Design a 5 screen app for a real need such as bus timings. Make it clickable and test it with 3 people.",
+      "publish": "Figma plus a portfolio page"
+     },
+     {
+      "level": "Portfolio",
+      "title": "Full UX case study",
+      "desc": "Research a problem, define it, design, test and improve. Show your real process with photos and quotes.",
+      "publish": "Portfolio site or Behance"
+     }
+    ]
+   },
+   "quiz": [
+    {
+     "q": "What is a wireframe?",
+     "options": [
+      "A simple layout sketch of a screen",
+      "A final painted design",
+      "A line of code",
+      "A database"
+     ],
+     "explanation": "Wireframes focus on structure before style."
+    },
+    {
+     "q": "What is the main goal of usability testing?",
+     "options": [
+      "Find where real users struggle",
+      "Pick the prettiest colours",
+      "Speed up the server",
+      "Write code"
+     ],
+     "explanation": "Watching users shows real problems."
+    },
+    {
+     "q": "Why does colour contrast matter?",
+     "options": [
+      "Text must be readable for everyone",
+      "It saves money",
+      "It makes pages load faster",
+      "It helps SEO only"
+     ],
+     "explanation": "Low contrast is hard to read."
+    },
+    {
+     "q": "What does UX stand for?",
+     "options": [
+      "User Experience",
+      "Universal Exchange",
+      "User Extension",
+      "Unique Execution"
+     ],
+     "explanation": "UX is about how the whole experience feels."
+    },
+    {
+     "q": "Which tool is widely used to design and prototype screens?",
+     "options": [
+      "Figma",
+      "Wireshark",
+      "Docker",
+      "Excel"
+     ],
+     "explanation": "Figma runs in the browser."
+    }
+   ]
+  },
+  {
+   "id": "graphic",
+   "industry": "design",
+   "group": "Visual",
+   "name": "Graphic Designer",
+   "what": "Makes pictures for brands: logos, posters and social media posts.",
+   "fit": "You have a good eye for colour, letters and layout.",
+   "kw": [
+    "Photoshop",
+    "Illustrator",
+    "Canva",
+    "InDesign",
+    "Typography",
+    "Branding",
+    "Logo design",
+    "Layout",
+    "Color theory",
+    "Adobe Creative Suite",
+    "Poster design",
+    "Social media design",
+    "CorelDRAW"
+   ],
+   "path": [
+    "Learn colour, letters and layout rules.",
+    "Learn Illustrator and Photoshop.",
+    "Design a full brand kit for an imaginary shop.",
+    "Practise designs for print and for social media.",
+    "Collect your best 8 to 10 pieces in a portfolio."
+   ],
+   "project": "Create a brand kit for a local shop: a logo, colours, a poster and three social posts, then show them on a portfolio page.",
+   "guide": {
+    "time": "3 to 6 months",
+    "level": "Beginner friendly",
+    "jobs": [
+     "Graphic Designer",
+     "Visual Designer",
+     "Social Media Designer"
+    ],
+    "days": [
+     "Create a free Canva or Figma account.",
+     "Learn the basics of colour: contrast, warm and cool.",
+     "Pick two fonts and see how they look together.",
+     "Recreate a poster you like.",
+     "Design a social media post for an imaginary brand.",
+     "Ask a friend what they notice first.",
+     "Improve the design based on that answer."
+    ],
+    "tools": [
+     "Canva",
+     "Figma",
+     "Photoshop or Photopea",
+     "Illustrator or Inkscape",
+     "Google Fonts"
+    ],
+    "interview": [
+     "How you start a new design project",
+     "How you choose colours for a brand",
+     "The difference between vector and raster",
+     "How you handle client feedback",
+     "Walk through your favourite piece",
+     "What makes a design accessible"
+    ],
+    "stages": [
+     {
+      "title": "Foundations",
+      "weeks": "Weeks 1 to 4",
+      "items": [
+       "Learn the design basics: layout, colour, type and balance",
+       "Learn Canva or Figma",
+       "Collect inspiration on Pinterest or Behance"
+      ]
+     },
+     {
+      "title": "Core skills",
+      "weeks": "Weeks 5 to 12",
+      "items": [
+       "Learn Adobe Photoshop and Illustrator or free alternatives like Photopea and Inkscape",
+       "Learn logo and brand basics",
+       "Learn print basics: size and colour"
+      ]
+     },
+     {
+      "title": "Build",
+      "weeks": "Weeks 13 to 20",
+      "items": [
+       "Design a full brand kit: logo, colours, fonts and posts",
+       "Make posters, social posts and a flyer",
+       "Ask for feedback from other designers"
+      ]
+     },
+     {
+      "title": "Get hired",
+      "weeks": "Weeks 21 to 24",
+      "items": [
+       "Publish a portfolio with 5 to 8 pieces",
+       "Try small freelance jobs and design contests",
+       "Apply for design internships"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "name": "Canva Design School",
+      "url": "https://www.canva.com/designschool/",
+      "price": "Free",
+      "desc": "Easy lessons on design basics."
+     },
+     {
+      "name": "Figma learn",
+      "url": "https://help.figma.com/hc/en-us/categories/360002051613-Get-started",
+      "price": "Free",
+      "desc": "Official Figma lessons."
+     },
+     {
+      "name": "Adobe tutorials",
+      "url": "https://helpx.adobe.com/learning.html",
+      "price": "Free + paid",
+      "desc": "Official tutorials for Adobe tools."
+     },
+     {
+      "name": "Behance",
+      "url": "https://www.behance.net/",
+      "price": "Free",
+      "desc": "See professional work and publish your own."
+     },
+     {
+      "name": "Google Fonts",
+      "url": "https://fonts.google.com/",
+      "price": "Free",
+      "desc": "Free fonts to practise typography."
+     },
+     {
+      "name": "Coolors",
+      "url": "https://coolors.co/",
+      "price": "Free",
+      "desc": "Create colour palettes."
+     }
+    ],
+    "projects": [
+     {
+      "level": "Beginner",
+      "title": "Poster for an event",
+      "desc": "Design a poster for a college event with one clear message.",
+      "publish": "Behance or Instagram"
+     },
+     {
+      "level": "Intermediate",
+      "title": "Logo and mini brand kit",
+      "desc": "Create a logo, colour palette and two fonts for an imaginary business.",
+      "publish": "Behance"
+     },
+     {
+      "level": "Portfolio",
+      "title": "Complete brand identity",
+      "desc": "Design a logo, business card, social posts and a flyer for one brand. Show mockups and your thinking.",
+      "publish": "Behance and a PDF portfolio"
+     }
+    ]
+   },
+   "quiz": [
+    {
+     "q": "What does contrast do in design?",
+     "options": [
+      "Makes elements stand out and easier to read",
+      "Makes files smaller",
+      "Adds animation",
+      "Removes colour"
+     ],
+     "explanation": "Contrast guides the eye."
+    },
+    {
+     "q": "What is a typeface pairing?",
+     "options": [
+      "Using two fonts that work well together",
+      "Printing twice",
+      "Two colours only",
+      "A file type"
+     ],
+     "explanation": "Pairing builds hierarchy."
+    },
+    {
+     "q": "Which colour mode is for print?",
+     "options": [
+      "CMYK",
+      "RGB",
+      "HEX",
+      "HSL"
+     ],
+     "explanation": "Print uses CMYK inks; screens use RGB."
+    },
+    {
+     "q": "Which file type keeps a logo sharp at any size?",
+     "options": [
+      "SVG (vector)",
+      "JPG",
+      "GIF",
+      "BMP"
+     ],
+     "explanation": "Vectors scale without losing quality."
+    },
+    {
+     "q": "What is white space?",
+     "options": [
+      "Empty space that helps the design breathe",
+      "The colour white only",
+      "A mistake",
+      "A font"
+     ],
+     "explanation": "Space helps readability."
+    }
+   ]
+  },
+  {
+   "id": "video",
+   "industry": "design",
+   "group": "Visual",
+   "name": "Video Editor / Motion Designer",
+   "what": "Edits videos and makes animations for ads, social media and films.",
+   "fit": "You like telling stories with moving pictures and sound.",
+   "kw": [
+    "Premiere Pro",
+    "After Effects",
+    "DaVinci Resolve",
+    "Motion graphics",
+    "Video editing",
+    "Blender",
+    "Storyboard",
+    "Color grading",
+    "Sound design",
+    "Animation"
+   ],
+   "path": [
+    "Learn the basics: cutting, timing and sound.",
+    "Learn Premiere Pro or DaVinci Resolve.",
+    "Learn After Effects for moving titles and effects.",
+    "Practise colour and sound.",
+    "Make a showreel (a short video of your best work)."
+   ],
+   "project": "Make a 60 second promo video with titles, animation and music, and add it to your showreel.",
+   "guide": {
+    "time": "3 to 6 months",
+    "level": "Beginner friendly",
+    "jobs": [
+     "Video Editor",
+     "Motion Graphics Artist (junior)",
+     "Content Creator"
+    ],
+    "days": [
+     "Install DaVinci Resolve (free) or CapCut.",
+     "Record 10 short clips on your phone.",
+     "Cut them together in order.",
+     "Add simple music and fix the volume.",
+     "Add text titles.",
+     "Export in 1080p.",
+     "Show it to one person and note what felt slow."
+    ],
+    "tools": [
+     "DaVinci Resolve",
+     "CapCut",
+     "After Effects (optional)",
+     "A phone camera",
+     "Free stock footage"
+    ],
+    "interview": [
+     "How you decide where to cut",
+     "How you edit for different platforms",
+     "How you fix bad audio",
+     "Your favourite edit and why",
+     "How you organise a big project",
+     "How you take feedback on an edit"
+    ],
+    "stages": [
+     {
+      "title": "Foundations",
+      "weeks": "Weeks 1 to 3",
+      "items": [
+       "Learn the editing tool basics: cut, trim and timeline",
+       "Learn story basics: start, middle and end",
+       "Learn simple audio cleanup"
+      ]
+     },
+     {
+      "title": "Core skills",
+      "weeks": "Weeks 4 to 10",
+      "items": [
+       "Learn colour correction",
+       "Learn titles, transitions and sound design",
+       "Learn basic motion graphics in After Effects or DaVinci Fusion"
+      ]
+     },
+     {
+      "title": "Build",
+      "weeks": "Weeks 11 to 18",
+      "items": [
+       "Edit 5 videos in different styles",
+       "Edit a short film, a reel and a promo",
+       "Publish them online"
+      ]
+     },
+     {
+      "title": "Get hired",
+      "weeks": "Weeks 19 to 24",
+      "items": [
+       "Create a showreel of 60 to 90 seconds",
+       "Try small freelance jobs",
+       "Apply for editor and creator roles"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "name": "DaVinci Resolve training",
+      "url": "https://www.blackmagicdesign.com/products/davinciresolve/training",
+      "price": "Free",
+      "desc": "Official free lessons for a free professional tool."
+     },
+     {
+      "name": "Adobe Premiere Pro tutorials",
+      "url": "https://helpx.adobe.com/premiere-pro/tutorials.html",
+      "price": "Free + paid",
+      "desc": "Official Premiere Pro lessons."
+     },
+     {
+      "name": "CapCut",
+      "url": "https://www.capcut.com/",
+      "price": "Free + paid",
+      "desc": "Easy editor for phone and computer."
+     },
+     {
+      "name": "Pexels videos",
+      "url": "https://www.pexels.com/videos/",
+      "price": "Free",
+      "desc": "Free stock clips to practise with."
+     },
+     {
+      "name": "YouTube Audio Library",
+      "url": "https://studio.youtube.com/",
+      "price": "Free",
+      "desc": "Free music and sound effects (sign in required)."
+     },
+     {
+      "name": "Vimeo",
+      "url": "https://vimeo.com/",
+      "price": "Free + paid",
+      "desc": "Publish your showreel."
+     }
+    ],
+    "projects": [
+     {
+      "level": "Beginner",
+      "title": "30 second reel",
+      "desc": "Edit a short vertical reel with music and text.",
+      "publish": "Instagram or YouTube Shorts"
+     },
+     {
+      "level": "Intermediate",
+      "title": "Short story video",
+      "desc": "Shoot or collect clips and edit a 2 minute story with sound and colour work.",
+      "publish": "YouTube"
+     },
+     {
+      "level": "Portfolio",
+      "title": "Showreel",
+      "desc": "A 60 to 90 second reel showing your best edits with a clear name and contact.",
+      "publish": "Vimeo or YouTube plus your portfolio page"
+     }
+    ]
+   },
+   "quiz": [
+    {
+     "q": "What is a cut in editing?",
+     "options": [
+      "A change from one shot to the next",
+      "A blur effect",
+      "A sound effect",
+      "A file type"
+     ],
+     "explanation": "Cuts build the pace."
+    },
+    {
+     "q": "What does colour grading do?",
+     "options": [
+      "Sets the look and mood of footage",
+      "Removes sound",
+      "Changes the file name",
+      "Makes it shorter"
+     ],
+     "explanation": "Grading gives a consistent style."
+    },
+    {
+     "q": "What is a good export resolution for most online videos?",
+     "options": [
+      "1080p",
+      "240p",
+      "16p",
+      "4 pixels"
+     ],
+     "explanation": "1080p is a common standard."
+    },
+    {
+     "q": "Why is audio important?",
+     "options": [
+      "Bad sound makes a good video feel poor",
+      "It is optional always",
+      "It only matters for music videos",
+      "It changes frame rate"
+     ],
+     "explanation": "Viewers forgive soft video before bad audio."
+    },
+    {
+     "q": "What is B-roll?",
+     "options": [
+      "Extra footage that supports the main shot",
+      "A video format",
+      "A camera brand",
+      "A sound effect"
+     ],
+     "explanation": "B-roll adds context and covers cuts."
+    }
+   ]
+  },
+  {
+   "id": "game",
+   "industry": "tech",
+   "group": "Games",
+   "name": "Game Developer",
+   "what": "Builds video games.",
+   "fit": "You love games and like building things you can play.",
+   "kw": [
+    "Unity",
+    "Unreal Engine",
+    "C#",
+    "C++",
+    "Godot",
+    "Game design",
+    "3D math",
+    "Blender",
+    "Physics",
+    "Shaders"
+   ],
+   "path": [
+    "Learn a language such as C# or C++.",
+    "Learn Unity or Godot, the tools that build games.",
+    "Make small games, one every weekend.",
+    "Learn simple game maths and physics.",
+    "Finish one polished game and put it online."
+   ],
+   "project": "Build and publish a small complete game, such as a 2D platform game with levels, sound and a menu.",
+   "guide": {
+    "time": "6 to 12 months",
+    "level": "Medium",
+    "jobs": [
+     "Game Developer",
+     "Unity Developer",
+     "Gameplay Programmer (junior)"
+    ],
+    "days": [
+     "Install Unity Hub or Godot.",
+     "Make a square move with the arrow keys.",
+     "Add a wall that stops it.",
+     "Add a coin to collect and show a score.",
+     "Add a restart button.",
+     "Play it with a friend and watch where they get stuck.",
+     "Write one change to make it more fun."
+    ],
+    "tools": [
+     "Unity or Godot",
+     "Visual Studio Code",
+     "Git and GitHub",
+     "Aseprite or Blender (optional)",
+     "Kenney free assets"
+    ],
+    "interview": [
+     "How a game loop works",
+     "How you handle collisions",
+     "How you would improve game performance",
+     "What you did in a game you finished",
+     "How you debug a game",
+     "How you design a fun level"
+    ],
+    "stages": [
+     {
+      "title": "Foundations",
+      "weeks": "Weeks 1 to 6",
+      "items": [
+       "Learn C# (Unity) or GDScript (Godot)",
+       "Learn basic game maths: vectors and collisions",
+       "Learn Git"
+      ]
+     },
+     {
+      "title": "Core skills",
+      "weeks": "Weeks 7 to 16",
+      "items": [
+       "Learn the engine: scenes, physics and UI",
+       "Make 3 small games: platformer, shooter and puzzle",
+       "Learn sound and animation basics"
+      ]
+     },
+     {
+      "title": "Build",
+      "weeks": "Weeks 17 to 28",
+      "items": [
+       "Join a game jam and finish a game in a few days",
+       "Polish one game with menus and effects",
+       "Publish on itch.io"
+      ]
+     },
+     {
+      "title": "Get hired",
+      "weeks": "Weeks 29 to 40",
+      "items": [
+       "Make a portfolio page with game videos and links",
+       "Practise C# and problem solving questions",
+       "Apply for internships and join indie teams"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "name": "Unity Learn",
+      "url": "https://learn.unity.com/",
+      "price": "Free",
+      "desc": "Official Unity lessons and projects."
+     },
+     {
+      "name": "Godot documentation",
+      "url": "https://docs.godotengine.org/",
+      "price": "Free",
+      "desc": "Learn a free, open source engine."
+     },
+     {
+      "name": "Microsoft C# documentation",
+      "url": "https://learn.microsoft.com/en-us/dotnet/csharp/",
+      "price": "Free",
+      "desc": "Official C# learning path."
+     },
+     {
+      "name": "itch.io game jams",
+      "url": "https://itch.io/jams",
+      "price": "Free",
+      "desc": "Find game jams and publish your games."
+     },
+     {
+      "name": "GDC Vault",
+      "url": "https://www.gdcvault.com/",
+      "price": "Free + paid",
+      "desc": "Talks from professional game developers."
+     },
+     {
+      "name": "Kenney assets",
+      "url": "https://kenney.nl/assets",
+      "price": "Free",
+      "desc": "Free game art and sounds."
+     }
+    ],
+    "projects": [
+     {
+      "level": "Beginner",
+      "title": "Coin collector",
+      "desc": "A small 2D game where you move, collect coins and avoid hazards.",
+      "publish": "itch.io"
+     },
+     {
+      "level": "Intermediate",
+      "title": "Complete platformer",
+      "desc": "3 levels, a menu, sound and a win screen.",
+      "publish": "itch.io with a trailer"
+     },
+     {
+      "level": "Portfolio",
+      "title": "Game jam game",
+      "desc": "Finish a game inside a jam deadline and write what you learned.",
+      "publish": "itch.io and a short video"
+     }
+    ]
+   },
+   "quiz": [
+    {
+     "q": "What is a game loop?",
+     "options": [
+      "Code that updates and draws the game repeatedly",
+      "A level design",
+      "A bug",
+      "A texture"
+     ],
+     "explanation": "The loop runs every frame."
+    },
+    {
+     "q": "What does a collider do?",
+     "options": [
+      "Detects when objects touch",
+      "Plays sound",
+      "Draws text",
+      "Saves files"
+     ],
+     "explanation": "Colliders power hits and walls."
+    },
+    {
+     "q": "Which language is used in Unity?",
+     "options": [
+      "C#",
+      "COBOL",
+      "SQL",
+      "Go"
+     ],
+     "explanation": "Unity scripts use C#."
+    },
+    {
+     "q": "What is a sprite?",
+     "options": [
+      "A 2D image used in a game",
+      "A sound",
+      "A 3D map",
+      "A compiler"
+     ],
+     "explanation": "Sprites are the 2D characters and items."
+    },
+    {
+     "q": "What is a game jam?",
+     "options": [
+      "A short event to make a game quickly",
+      "A music festival",
+      "A bug report",
+      "A sale"
+     ],
+     "explanation": "Jams teach you to finish games."
+    }
+   ]
+  },
+  {
+   "id": "qa",
+   "industry": "tech",
+   "group": "Quality",
+   "name": "QA / Test Engineer",
+   "what": "Tests software to find mistakes before users do.",
+   "fit": "You are careful and notice small details others miss.",
+   "kw": [
+    "Selenium",
+    "Test cases",
+    "Manual testing",
+    "Automation testing",
+    "Cypress",
+    "Playwright",
+    "JUnit",
+    "Postman",
+    "Bug tracking",
+    "Jira",
+    "API testing",
+    "Pytest",
+    "TestNG"
+   ],
+   "path": [
+    "Learn how to write test cases.",
+    "Learn how to report bugs clearly with Jira.",
+    "Learn Postman to test how apps talk to servers.",
+    "Learn to make tests run by themselves (Selenium, Cypress or Playwright).",
+    "Build a set of automatic tests for a real website."
+   ],
+   "project": "Write a test plan for a public website, automate its main steps, and report any bugs clearly.",
+   "guide": {
+    "time": "3 to 6 months",
+    "level": "Beginner friendly",
+    "jobs": [
+     "QA Tester",
+     "Manual Tester",
+     "Automation Tester (junior)"
+    ],
+    "days": [
+     "Pick any app you use and open it with a tester's mind.",
+     "Write 5 things the app should do.",
+     "Test each one and note pass or fail.",
+     "Try something odd, such as an empty form or a long name.",
+     "Write one bug report with steps, what happened and what you expected.",
+     "Learn what a test case looks like.",
+     "Install a browser testing tool such as Playwright."
+    ],
+    "tools": [
+     "Jira or a free tracker",
+     "Postman",
+     "Playwright or Selenium",
+     "Chrome DevTools",
+     "SQL"
+    ],
+    "interview": [
+     "Difference between severity and priority",
+     "How you test a login page",
+     "What you do when you cannot reproduce a bug",
+     "Manual versus automation testing",
+     "What a good test case looks like",
+     "How you decide what to test first"
+    ],
+    "stages": [
+     {
+      "title": "Foundations",
+      "weeks": "Weeks 1 to 4",
+      "items": [
+       "Learn testing basics: test cases, bugs and severity",
+       "Learn how software is built and released",
+       "Learn to write clear bug reports"
+      ]
+     },
+     {
+      "title": "Core skills",
+      "weeks": "Weeks 5 to 10",
+      "items": [
+       "Learn SQL for checking data",
+       "Learn API testing with Postman",
+       "Learn a test tool such as Jira for tracking"
+      ]
+     },
+     {
+      "title": "Build",
+      "weeks": "Weeks 11 to 18",
+      "items": [
+       "Learn automation with Playwright or Selenium and Python or JavaScript",
+       "Write automatic tests for a website",
+       "Learn Git"
+      ]
+     },
+     {
+      "title": "Get hired",
+      "weeks": "Weeks 19 to 24",
+      "items": [
+       "Show test cases and an automation project on GitHub",
+       "Practise testing questions",
+       "Apply for QA internships"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "name": "Ministry of Testing",
+      "url": "https://www.ministryoftesting.com/",
+      "price": "Free + paid",
+      "desc": "A community and lessons for testers."
+     },
+     {
+      "name": "Playwright documentation",
+      "url": "https://playwright.dev/docs/intro",
+      "price": "Free",
+      "desc": "Learn browser automation."
+     },
+     {
+      "name": "Postman Learning Center",
+      "url": "https://learning.postman.com/",
+      "price": "Free",
+      "desc": "Learn API testing."
+     },
+     {
+      "name": "Test Automation University",
+      "url": "https://testautomationu.applitools.com/",
+      "price": "Free",
+      "desc": "Free courses on test automation."
+     },
+     {
+      "name": "ISTQB",
+      "url": "https://www.istqb.org/",
+      "price": "Paid exam",
+      "desc": "A well known testing certificate."
+     },
+     {
+      "name": "SQLBolt",
+      "url": "https://sqlbolt.com/",
+      "price": "Free",
+      "desc": "Learn SQL to check data."
+     }
+    ],
+    "projects": [
+     {
+      "level": "Beginner",
+      "title": "Test plan for a real app",
+      "desc": "Write 20 test cases for a popular website and report 3 real bugs.",
+      "publish": "Google Doc or GitHub"
+     },
+     {
+      "level": "Intermediate",
+      "title": "API test collection",
+      "desc": "Test a public API with Postman and write checks for good and bad inputs.",
+      "publish": "Postman and GitHub"
+     },
+     {
+      "level": "Portfolio",
+      "title": "Automated test suite",
+      "desc": "Write a Playwright test suite for a demo shop site: login, search and checkout. Run it on every push.",
+      "publish": "GitHub with a passing build badge"
+     }
+    ]
+   },
+   "quiz": [
+    {
+     "q": "What is a test case?",
+     "options": [
+      "A set of steps with an expected result",
+      "A phone case",
+      "A type of bug",
+      "A database"
+     ],
+     "explanation": "Each test case checks one behaviour."
+    },
+    {
+     "q": "What should a good bug report include?",
+     "options": [
+      "Steps to reproduce, actual result and expected result",
+      "Only a screenshot",
+      "Only the word broken",
+      "Your opinion of the developer"
+     ],
+     "explanation": "Clear steps help developers fix quickly."
+    },
+    {
+     "q": "What is regression testing?",
+     "options": [
+      "Checking that old features still work after changes",
+      "Testing only new features",
+      "Testing speed",
+      "Writing code"
+     ],
+     "explanation": "Changes can break old things."
+    },
+    {
+     "q": "What is the main benefit of automated tests?",
+     "options": [
+      "Fast, repeatable checks",
+      "They find every bug",
+      "They replace all manual testing",
+      "They need no code"
+     ],
+     "explanation": "Automation helps repeat checks quickly."
+    },
+    {
+     "q": "What does an API test check?",
+     "options": [
+      "That an endpoint returns the right data and codes",
+      "The colour of a button",
+      "The layout",
+      "The sound"
+     ],
+     "explanation": "API tests work without the screen."
+    }
+   ]
+  },
+  {
+   "id": "marketing",
+   "industry": "business",
+   "group": "Marketing",
+   "name": "Digital Marketer",
+   "what": "Helps people find a product online using posts, ads, search and email.",
+   "fit": "You like writing, understanding people and checking numbers.",
+   "kw": [
+    "SEO",
+    "Google Analytics",
+    "Social media",
+    "Content marketing",
+    "Google Ads",
+    "Email marketing",
+    "Copywriting",
+    "Canva",
+    "Meta Ads",
+    "Campaign",
+    "A/B testing"
+   ],
+   "path": [
+    "Learn how people decide to buy.",
+    "Learn SEO (getting found on Google) and writing.",
+    "Learn Google Analytics to see visitors.",
+    "Run a small paid ad with a tiny budget.",
+    "Write up what worked as a case study."
+   ],
+   "project": "Grow a small blog or social page for 60 days, track visitors in Google Analytics, and write what worked.",
+   "guide": {
+    "time": "3 to 6 months",
+    "level": "Beginner friendly",
+    "jobs": [
+     "Digital Marketing Executive",
+     "SEO Executive",
+     "Social Media Manager"
+    ],
+    "days": [
+     "Pick a small imaginary business or a real local shop.",
+     "Write who its customers are in 3 lines.",
+     "Create a free Google Analytics and Search Console account for a practice site.",
+     "Search for 5 keywords a customer might use.",
+     "Write one social post with a clear call to action.",
+     "Make a simple poster in Canva.",
+     "Write what you would measure to know if it worked."
+    ],
+    "tools": [
+     "Google Analytics",
+     "Search Console",
+     "Canva",
+     "A free email tool such as Mailchimp",
+     "A spreadsheet"
+    ],
+    "interview": [
+     "How you would promote a new product",
+     "What metrics you track for a campaign",
+     "How SEO works",
+     "The difference between paid and organic reach",
+     "How you would use a small budget",
+     "How you measure return on ad spend"
+    ],
+    "stages": [
+     {
+      "title": "Foundations",
+      "weeks": "Weeks 1 to 4",
+      "items": [
+       "Learn marketing basics: audience, offer and channel",
+       "Learn how search engines work",
+       "Learn writing for the web"
+      ]
+     },
+     {
+      "title": "Core skills",
+      "weeks": "Weeks 5 to 10",
+      "items": [
+       "Learn SEO",
+       "Learn social media marketing and content",
+       "Learn Google Ads and Meta Ads basics"
+      ]
+     },
+     {
+      "title": "Build",
+      "weeks": "Weeks 11 to 18",
+      "items": [
+       "Run a small real campaign for a local shop or your own blog",
+       "Learn Google Analytics to measure results",
+       "Learn email marketing"
+      ]
+     },
+     {
+      "title": "Get hired",
+      "weeks": "Weeks 19 to 24",
+      "items": [
+       "Write a case study with real numbers",
+       "Get one free Google certificate",
+       "Apply for marketing internships"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "name": "Google Skillshop",
+      "url": "https://skillshop.withgoogle.com/",
+      "price": "Free",
+      "desc": "Official Google Ads and Analytics courses with certificates."
+     },
+     {
+      "name": "HubSpot Academy",
+      "url": "https://academy.hubspot.com/",
+      "price": "Free",
+      "desc": "Free courses on marketing, SEO and email."
+     },
+     {
+      "name": "Google Search Central",
+      "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+      "price": "Free",
+      "desc": "The official SEO starter guide."
+     },
+     {
+      "name": "Meta Blueprint",
+      "url": "https://www.facebook.com/business/learn",
+      "price": "Free",
+      "desc": "Official ad lessons for Facebook and Instagram."
+     },
+     {
+      "name": "Canva Design School",
+      "url": "https://www.canva.com/designschool/",
+      "price": "Free",
+      "desc": "Design basics for posts and ads."
+     },
+     {
+      "name": "Ahrefs blog",
+      "url": "https://ahrefs.com/blog/",
+      "price": "Free",
+      "desc": "Clear articles on SEO and content."
+     }
+    ],
+    "projects": [
+     {
+      "level": "Beginner",
+      "title": "Content calendar",
+      "desc": "Plan 30 days of posts for a brand with goals and ideas.",
+      "publish": "Google Sheets or Notion"
+     },
+     {
+      "level": "Intermediate",
+      "title": "Small blog with SEO",
+      "desc": "Write 5 helpful articles, optimise them and track visits.",
+      "publish": "Blogger or WordPress free site"
+     },
+     {
+      "level": "Portfolio",
+      "title": "Real campaign case study",
+      "desc": "Run a small campaign for a local shop. Report the reach, clicks and what you learned.",
+      "publish": "PDF case study or a portfolio page"
+     }
+    ]
+   },
+   "quiz": [
+    {
+     "q": "What does SEO stand for?",
+     "options": [
+      "Search Engine Optimization",
+      "Social Engagement Order",
+      "Site Email Output",
+      "Sales Entry Operation"
+     ],
+     "explanation": "SEO helps pages appear in search results."
+    },
+    {
+     "q": "What is a call to action?",
+     "options": [
+      "A clear prompt for the next step, such as Buy now",
+      "A phone call",
+      "A design style",
+      "A tool"
+     ],
+     "explanation": "CTAs guide people to act."
+    },
+    {
+     "q": "What does CTR measure?",
+     "options": [
+      "The share of people who click after seeing something",
+      "Server speed",
+      "Page weight",
+      "Total sales"
+     ],
+     "explanation": "Click through rate."
+    },
+    {
+     "q": "What is a target audience?",
+     "options": [
+      "The group of people you want to reach",
+      "All people on earth",
+      "Your team",
+      "Your competitors"
+     ],
+     "explanation": "Good marketing speaks to a clear group."
+    },
+    {
+     "q": "Why use A/B testing?",
+     "options": [
+      "To compare two versions and see which works better",
+      "To pick a font",
+      "To save money only",
+      "To remove ads"
+     ],
+     "explanation": "Testing beats guessing."
+    }
+   ]
+  },
+  {
+   "id": "ba",
+   "industry": "business",
+   "group": "Analysis",
+   "name": "Business / Product Analyst",
+   "what": "Explains what a business needs to the team that builds the software.",
+   "fit": "You like talking to people and organising ideas clearly.",
+   "kw": [
+    "Requirements",
+    "User stories",
+    "Jira",
+    "SQL",
+    "Excel",
+    "Stakeholder",
+    "Process mapping",
+    "UML",
+    "Agile",
+    "Scrum",
+    "Documentation",
+    "Wireframes",
+    "Power BI"
+   ],
+   "path": [
+    "Learn how software teams work (Agile and Scrum).",
+    "Learn to write what a product must do, in simple user stories.",
+    "Learn to draw process maps.",
+    "Learn SQL and Excel to check the numbers.",
+    "Write a full plan for a real app idea."
+   ],
+   "project": "Pick a real app and write what it must do, its user stories, a process map and simple screen sketches.",
+   "guide": {
+    "time": "4 to 8 months",
+    "level": "Beginner friendly",
+    "jobs": [
+     "Business Analyst",
+     "Product Analyst",
+     "Operations Analyst"
+    ],
+    "days": [
+     "Pick a company you know, such as a food delivery app.",
+     "Write what problem it solves and for whom.",
+     "List 5 numbers (metrics) that show if it is doing well.",
+     "Learn what a requirement is and write 3 for a small feature.",
+     "Draw a simple flow of how an order moves from start to end.",
+     "Open Excel and make a table of those 5 metrics with made up numbers.",
+     "Write a one paragraph recommendation."
+    ],
+    "tools": [
+     "Excel",
+     "SQL",
+     "Power BI or Tableau",
+     "Jira",
+     "Draw.io or Lucidchart for flows"
+    ],
+    "interview": [
+     "How you gather requirements",
+     "How you decide which metrics matter",
+     "Walk through a case study you did",
+     "How you handle conflicting requests",
+     "What Agile and Scrum mean",
+     "How you would find why sales dropped"
+    ],
+    "stages": [
+     {
+      "title": "Foundations",
+      "weeks": "Weeks 1 to 5",
+      "items": [
+       "Learn business basics: customers, revenue and cost",
+       "Learn Excel and basic statistics",
+       "Learn SQL basics"
+      ]
+     },
+     {
+      "title": "Core skills",
+      "weeks": "Weeks 6 to 12",
+      "items": [
+       "Learn requirements, user stories and process maps",
+       "Learn dashboards in Power BI or Tableau",
+       "Learn product metrics: retention, conversion and funnel"
+      ]
+     },
+     {
+      "title": "Build",
+      "weeks": "Weeks 13 to 22",
+      "items": [
+       "Do 2 case studies that end with a clear recommendation",
+       "Learn Jira and basic Agile and Scrum",
+       "Practise presenting your findings"
+      ]
+     },
+     {
+      "title": "Get hired",
+      "weeks": "Weeks 23 to 32",
+      "items": [
+       "Publish case studies on GitHub or a portfolio",
+       "Practise case and SQL interview questions",
+       "Apply for analyst internships"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "name": "Google Data Analytics Certificate",
+      "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
+      "price": "Paid (financial aid available)",
+      "desc": "A beginner course with a certificate."
+     },
+     {
+      "name": "SQLBolt",
+      "url": "https://sqlbolt.com/",
+      "price": "Free",
+      "desc": "Learn SQL basics."
+     },
+     {
+      "name": "IIBA BABOK Guide overview",
+      "url": "https://www.iiba.org/business-analysis-body-of-knowledge/",
+      "price": "Free overview",
+      "desc": "The standard business analysis framework."
+     },
+     {
+      "name": "Atlassian Agile coach",
+      "url": "https://www.atlassian.com/agile",
+      "price": "Free",
+      "desc": "Clear guides to Agile, Scrum and Jira."
+     },
+     {
+      "name": "Microsoft Power BI learning",
+      "url": "https://learn.microsoft.com/en-us/training/powerplatform/power-bi",
+      "price": "Free",
+      "desc": "Official Power BI lessons."
+     },
+     {
+      "name": "Lenny's Newsletter",
+      "url": "https://www.lennysnewsletter.com/",
+      "price": "Free + paid",
+      "desc": "Product and growth articles."
+     }
+    ],
+    "projects": [
+     {
+      "level": "Beginner",
+      "title": "Process map",
+      "desc": "Draw how a customer order flows in an app and mark where delays happen.",
+      "publish": "PDF or Figma"
+     },
+     {
+      "level": "Intermediate",
+      "title": "Funnel analysis",
+      "desc": "Use a free dataset of website visits and sales. Find where most users drop off and suggest 2 fixes.",
+      "publish": "GitHub plus a dashboard"
+     },
+     {
+      "level": "Portfolio",
+      "title": "Business case study",
+      "desc": "Pick a real company problem. Define it, analyse data, write requirements and a recommendation with expected impact.",
+      "publish": "PDF and a presentation"
+     }
+    ]
+   },
+   "quiz": [
+    {
+     "q": "What is a requirement?",
+     "options": [
+      "A clear need the solution must meet",
+      "A bug",
+      "A chart",
+      "A meeting"
+     ],
+     "explanation": "Requirements say what to build."
+    },
+    {
+     "q": "What is a KPI?",
+     "options": [
+      "A key number that shows how well something is doing",
+      "A coding language",
+      "A design tool",
+      "A server"
+     ],
+     "explanation": "KPI means key performance indicator."
+    },
+    {
+     "q": "What is a user story?",
+     "options": [
+      "A short description of what a user wants and why",
+      "A novel",
+      "A test script",
+      "A database"
+     ],
+     "explanation": "As a user I want X so that Y."
+    },
+    {
+     "q": "What does a funnel show?",
+     "options": [
+      "How many users drop off at each step",
+      "The server load",
+      "Colours",
+      "Code size"
+     ],
+     "explanation": "Funnels show where users leave."
+    },
+    {
+     "q": "Who is a stakeholder?",
+     "options": [
+      "Anyone affected by or interested in the project",
+      "Only the developer",
+      "Only the customer",
+      "A competitor only"
+     ],
+     "explanation": "Good analysts talk to all stakeholders."
+    }
+   ]
+  },
+  {
+   "id": "finanalyst",
+   "industry": "finance",
+   "group": "Analysis",
+   "name": "Financial Analyst",
+   "what": "Studies company numbers and markets to help people decide where to invest or spend money.",
+   "fit": "You like numbers, news about companies and clear reasoning.",
+   "kw": [
+    "Excel",
+    "Financial modeling",
+    "Accounting basics",
+    "Valuation",
+    "Financial statements",
+    "Ratio analysis",
+    "SQL",
+    "Power BI",
+    "Forecasting",
+    "Budgeting",
+    "Market research",
+    "PowerPoint"
+   ],
+   "path": [
+    "Learn how to read a balance sheet, profit and loss statement and cash flow statement.",
+    "Get strong in Excel: formulas, pivot tables and charts.",
+    "Learn ratios and basic valuation.",
+    "Build a simple financial model for a real listed company.",
+    "Write a one page investment note and share it."
+   ],
+   "project": "Pick one listed company. Read its annual report and write a one page summary with 5 key ratios.",
+   "guide": {
+    "time": "4 to 8 months",
+    "level": "Medium",
+    "jobs": [
+     "Financial Analyst",
+     "Equity Research Associate",
+     "FP&A Analyst"
+    ],
+    "days": [
+     "Learn the three main financial statements in simple words.",
+     "Open the annual report of a company you know.",
+     "Find revenue, profit and debt on its statements.",
+     "Learn what a ratio is and work out one profit margin.",
+     "Practise SUM, IF and VLOOKUP in Excel.",
+     "Make a small table that compares two companies.",
+     "Write three lines on which one looks stronger and why."
+    ],
+    "tools": [
+     "Excel",
+     "Power BI or Tableau",
+     "Company annual reports",
+     "Screener or similar free data site",
+     "PowerPoint"
+    ],
+    "interview": [
+     "How to read a balance sheet",
+     "What EBITDA means",
+     "How a company can be profitable but short of cash",
+     "What a DCF is in simple words",
+     "Walk through a model you built",
+     "How to compare two companies"
+    ],
+    "stages": [
+     {
+      "title": "Foundations",
+      "weeks": "Weeks 1 to 4",
+      "items": [
+       "Learn accounting basics",
+       "Learn to read the three financial statements",
+       "Learn basic Excel"
+      ]
+     },
+     {
+      "title": "Core skills",
+      "weeks": "Weeks 5 to 12",
+      "items": [
+       "Learn ratio analysis",
+       "Learn forecasting and budgeting",
+       "Learn valuation basics such as DCF and multiples"
+      ]
+     },
+     {
+      "title": "Build",
+      "weeks": "Weeks 13 to 20",
+      "items": [
+       "Build a financial model in Excel for one company",
+       "Write an investment note",
+       "Learn Power BI or SQL for reports"
+      ]
+     },
+     {
+      "title": "Get hired",
+      "weeks": "Weeks 21 to 28",
+      "items": [
+       "Practise finance and Excel interview questions",
+       "Share your notes on LinkedIn",
+       "Apply for analyst internships"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "name": "Zerodha Varsity",
+      "url": "https://zerodha.com/varsity/",
+      "price": "Free",
+      "desc": "Easy lessons on markets and investing, written for India."
+     },
+     {
+      "name": "Khan Academy Finance",
+      "url": "https://www.khanacademy.org/economics-finance-domain",
+      "price": "Free",
+      "desc": "Simple lessons on finance and economics."
+     },
+     {
+      "name": "Investopedia",
+      "url": "https://www.investopedia.com/",
+      "price": "Free",
+      "desc": "Clear explanations of finance terms."
+     },
+     {
+      "name": "Corporate Finance Institute",
+      "url": "https://corporatefinanceinstitute.com/resources/",
+      "price": "Free + paid",
+      "desc": "Guides on modelling and valuation."
+     },
+     {
+      "name": "Microsoft Excel help",
+      "url": "https://support.microsoft.com/en-us/excel",
+      "price": "Free",
+      "desc": "Official Excel lessons."
+     },
+     {
+      "name": "CFA Institute",
+      "url": "https://www.cfainstitute.org/",
+      "price": "Paid exams",
+      "desc": "A well known finance qualification."
+     }
+    ],
+    "projects": [
+     {
+      "level": "Beginner",
+      "title": "Ratio comparison",
+      "desc": "Compare two companies in the same industry using 5 ratios.",
+      "publish": "Google Sheets or GitHub"
+     },
+     {
+      "level": "Intermediate",
+      "title": "Simple valuation model",
+      "desc": "Forecast 3 years of sales and profit for one company and estimate a fair value.",
+      "publish": "Excel file with notes"
+     },
+     {
+      "level": "Portfolio",
+      "title": "Investment note",
+      "desc": "Write a 2 page note on one company: business, numbers, risks and your view.",
+      "publish": "PDF on LinkedIn"
+     }
+    ]
+   },
+   "quiz": [
+    {
+     "q": "What does a balance sheet show?",
+     "options": [
+      "What a company owns and owes at one moment",
+      "Only yearly profit",
+      "Only cash spent on ads",
+      "Staff salaries"
+     ],
+     "explanation": "It lists assets, liabilities and equity."
+    },
+    {
+     "q": "Which statement shows profit over a period?",
+     "options": [
+      "Profit and loss statement",
+      "Balance sheet",
+      "Share certificate",
+      "Bank passbook only"
+     ],
+     "explanation": "The income statement reports revenue minus costs."
+    },
+    {
+     "q": "What does a profit margin tell you?",
+     "options": [
+      "How much profit is made from each rupee of sales",
+      "The company size",
+      "The share price",
+      "The number of staff"
+     ],
+     "explanation": "Margin is profit divided by sales."
+    },
+    {
+     "q": "What is a ratio used for?",
+     "options": [
+      "Comparing numbers in a meaningful way",
+      "Printing reports",
+      "Hiding losses",
+      "Creating tax"
+     ],
+     "explanation": "Ratios make companies comparable."
+    },
+    {
+     "q": "What is forecasting?",
+     "options": [
+      "Estimating future numbers",
+      "Recording past sales",
+      "Auditing",
+      "Banking"
+     ],
+     "explanation": "Forecasts guide plans and budgets."
+    }
+   ]
+  },
+  {
+   "id": "accountant",
+   "industry": "finance",
+   "group": "Accounts",
+   "name": "Accountant",
+   "what": "Keeps a business's money records correct, prepares reports and handles taxes.",
+   "fit": "You like order, accuracy and keeping records neat.",
+   "kw": [
+    "Tally",
+    "Accounting basics",
+    "GST",
+    "Income tax",
+    "Excel",
+    "Bookkeeping",
+    "Financial statements",
+    "Auditing",
+    "Reconciliation",
+    "Payroll",
+    "Zoho Books",
+    "Compliance"
+   ],
+   "path": [
+    "Learn bookkeeping: debit, credit and the double entry system.",
+    "Learn Tally or Zoho Books and practise on sample data.",
+    "Learn GST and income tax basics for India.",
+    "Learn to prepare a trial balance and final accounts.",
+    "Take on a small real bookkeeping task for a shop or family business."
+   ],
+   "project": "Keep the books for an imaginary small shop for one month in Tally or Excel and produce a profit and loss statement.",
+   "guide": {
+    "time": "4 to 8 months",
+    "level": "Beginner friendly",
+    "jobs": [
+     "Accounts Executive",
+     "Junior Accountant",
+     "Accounts Assistant"
+    ],
+    "days": [
+     "Learn debit and credit in simple words.",
+     "Write five example transactions in a journal.",
+     "Post them to ledgers.",
+     "Make a trial balance in Excel.",
+     "Install a free Tally trial or open Zoho Books.",
+     "Record those five transactions in the software.",
+     "Compare your Excel and software results."
+    ],
+    "tools": [
+     "Tally Prime",
+     "Zoho Books",
+     "Excel",
+     "Bank statement samples",
+     "GST portal"
+    ],
+    "interview": [
+     "Rules of debit and credit",
+     "What a ledger is",
+     "How GST works in simple words",
+     "How you do a bank reconciliation",
+     "What TDS is",
+     "How you find a mistake in the books"
+    ],
+    "stages": [
+     {
+      "title": "Foundations",
+      "weeks": "Weeks 1 to 4",
+      "items": [
+       "Learn bookkeeping and the double entry system",
+       "Learn Excel basics",
+       "Learn types of accounts"
+      ]
+     },
+     {
+      "title": "Core skills",
+      "weeks": "Weeks 5 to 12",
+      "items": [
+       "Learn Tally Prime or Zoho Books",
+       "Learn GST basics and returns",
+       "Learn income tax and TDS basics"
+      ]
+     },
+     {
+      "title": "Build",
+      "weeks": "Weeks 13 to 18",
+      "items": [
+       "Keep books for a sample business for a month",
+       "Learn bank reconciliation",
+       "Prepare final accounts"
+      ]
+     },
+     {
+      "title": "Get hired",
+      "weeks": "Weeks 19 to 24",
+      "items": [
+       "Practise accounts interview questions",
+       "Add your practice books to your resume",
+       "Apply for accounts executive roles and internships"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "name": "Tally Solutions learning",
+      "url": "https://tallysolutions.com/",
+      "price": "Free + paid",
+      "desc": "The maker of Tally. Look for tutorials and trial downloads."
+     },
+     {
+      "name": "ICAI",
+      "url": "https://www.icai.org/",
+      "price": "Free + paid",
+      "desc": "The Institute of Chartered Accountants of India with study material."
+     },
+     {
+      "name": "GST portal",
+      "url": "https://www.gst.gov.in/",
+      "price": "Free",
+      "desc": "The official GST website with guides and help."
+     },
+     {
+      "name": "Income Tax Department",
+      "url": "https://www.incometax.gov.in/",
+      "price": "Free",
+      "desc": "Official tax rules and help."
+     },
+     {
+      "name": "Zoho Books help",
+      "url": "https://www.zoho.com/books/help/",
+      "price": "Free",
+      "desc": "Learn cloud accounting."
+     },
+     {
+      "name": "Khan Academy Accounting",
+      "url": "https://www.khanacademy.org/economics-finance-domain/core-finance",
+      "price": "Free",
+      "desc": "Simple lessons on accounting basics."
+     }
+    ],
+    "projects": [
+     {
+      "level": "Beginner",
+      "title": "Month of bookkeeping",
+      "desc": "Record 40 sample transactions in Excel and produce a trial balance.",
+      "publish": "Google Sheets"
+     },
+     {
+      "level": "Intermediate",
+      "title": "Tally practice company",
+      "desc": "Create a company in Tally, add ledgers and 100 transactions with GST.",
+      "publish": "PDF reports on your resume"
+     },
+     {
+      "level": "Portfolio",
+      "title": "Final accounts set",
+      "desc": "Prepare profit and loss, balance sheet and bank reconciliation for a sample business.",
+      "publish": "PDF plus a short explanation"
+     }
+    ]
+   },
+   "quiz": [
+    {
+     "q": "In double entry bookkeeping, every transaction has...",
+     "options": [
+      "At least one debit and one credit",
+      "Only a debit",
+      "Only a credit",
+      "No entries"
+     ],
+     "explanation": "Total debits must equal total credits."
+    },
+    {
+     "q": "What does GST stand for?",
+     "options": [
+      "Goods and Services Tax",
+      "General Sales Tax",
+      "Government Service Tax",
+      "Gross Sales Total"
+     ],
+     "explanation": "India's GST replaced many older taxes."
+    },
+    {
+     "q": "What is a trial balance?",
+     "options": [
+      "A list of all ledger balances to check totals match",
+      "A bank loan",
+      "A tax return",
+      "A salary slip"
+     ],
+     "explanation": "It helps find mistakes."
+    },
+    {
+     "q": "What is bank reconciliation?",
+     "options": [
+      "Matching your books to the bank statement",
+      "Opening a new bank",
+      "Paying a tax",
+      "Printing cheques"
+     ],
+     "explanation": "It finds differences between the two records."
+    },
+    {
+     "q": "Which is a popular accounting software in India?",
+     "options": [
+      "Tally",
+      "Figma",
+      "Blender",
+      "Slack"
+     ],
+     "explanation": "Tally is widely used by small businesses."
+    }
+   ]
+  },
+  {
+   "id": "hr",
+   "industry": "business",
+   "group": "People",
+   "name": "HR Executive",
+   "what": "Helps a company hire people, look after them and keep workplace rules fair.",
+   "fit": "You enjoy talking with people and solving people problems.",
+   "kw": [
+    "Recruitment",
+    "Interviewing",
+    "Onboarding",
+    "Payroll",
+    "Employee engagement",
+    "Excel",
+    "HRIS",
+    "Labour law basics",
+    "Communication",
+    "Performance reviews",
+    "LinkedIn Recruiter",
+    "Training"
+   ],
+   "path": [
+    "Learn what HR does: hiring, onboarding, payroll, engagement and exits.",
+    "Practise writing a clear job description.",
+    "Learn to screen resumes and plan interviews.",
+    "Learn Excel and an HR system to track people data.",
+    "Learn basic labour rules such as leave and working hours."
+   ],
+   "project": "Write a job description, a 5 question interview guide and an onboarding checklist for a role you know.",
+   "guide": {
+    "time": "3 to 6 months",
+    "level": "Beginner friendly",
+    "jobs": [
+     "HR Executive",
+     "Recruiter",
+     "HR Assistant"
+    ],
+    "days": [
+     "List the main jobs an HR team does.",
+     "Pick a role and write a short job description.",
+     "Read 5 resumes online and note what stands out.",
+     "Write 5 interview questions for that role.",
+     "Draft a first day checklist for a new joiner.",
+     "Make an Excel sheet to track candidates.",
+     "Ask a friend to do a mock interview and note feedback."
+    ],
+    "tools": [
+     "Excel or Google Sheets",
+     "LinkedIn",
+     "An HR system such as Zoho People",
+     "Google Forms",
+     "Canva for job posters"
+    ],
+    "interview": [
+     "How you would hire for a role",
+     "What makes a good job description",
+     "How you handle a conflict between two employees",
+     "What onboarding includes",
+     "How you measure employee engagement",
+     "How you screen many resumes quickly"
+    ],
+    "stages": [
+     {
+      "title": "Foundations",
+      "weeks": "Weeks 1 to 3",
+      "items": [
+       "Learn what each part of HR does",
+       "Learn good communication and listening",
+       "Learn Excel basics"
+      ]
+     },
+     {
+      "title": "Core skills",
+      "weeks": "Weeks 4 to 10",
+      "items": [
+       "Learn recruitment: sourcing, screening and interviewing",
+       "Learn onboarding and employee engagement",
+       "Learn payroll and leave basics"
+      ]
+     },
+     {
+      "title": "Build",
+      "weeks": "Weeks 11 to 16",
+      "items": [
+       "Run a mock hiring process for a role",
+       "Create an onboarding kit",
+       "Learn an HR tool such as Zoho People or Keka"
+      ]
+     },
+     {
+      "title": "Get hired",
+      "weeks": "Weeks 17 to 24",
+      "items": [
+       "Practise HR interview questions",
+       "Build your LinkedIn profile and network",
+       "Apply for HR internships"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "name": "SHRM",
+      "url": "https://www.shrm.org/",
+      "price": "Free + paid",
+      "desc": "A large HR community with guides and certificates."
+     },
+     {
+      "name": "AIHR",
+      "url": "https://www.aihr.com/",
+      "price": "Free + paid",
+      "desc": "Free HR guides and templates."
+     },
+     {
+      "name": "HubSpot Academy",
+      "url": "https://academy.hubspot.com/",
+      "price": "Free",
+      "desc": "Free courses on communication and business."
+     },
+     {
+      "name": "LinkedIn Talent Blog",
+      "url": "https://www.linkedin.com/business/talent/blog",
+      "price": "Free",
+      "desc": "Articles on hiring and talent."
+     },
+     {
+      "name": "Zoho People help",
+      "url": "https://www.zoho.com/people/help/",
+      "price": "Free",
+      "desc": "Learn an HR system."
+     },
+     {
+      "name": "Ministry of Labour and Employment",
+      "url": "https://labour.gov.in/",
+      "price": "Free",
+      "desc": "Official labour rules in India."
+     }
+    ],
+    "projects": [
+     {
+      "level": "Beginner",
+      "title": "Job description",
+      "desc": "Write a clear job description for a role and post it as a sample.",
+      "publish": "Google Doc or LinkedIn article"
+     },
+     {
+      "level": "Intermediate",
+      "title": "Hiring tracker",
+      "desc": "Make a sheet that tracks 20 sample candidates through stages with simple charts.",
+      "publish": "Google Sheets"
+     },
+     {
+      "level": "Portfolio",
+      "title": "Onboarding kit",
+      "desc": "Create a welcome email, first week plan and feedback form for new joiners.",
+      "publish": "PDF portfolio"
+     }
+    ]
+   },
+   "quiz": [
+    {
+     "q": "What is onboarding?",
+     "options": [
+      "Helping a new joiner settle into the job",
+      "Firing someone",
+      "Paying tax",
+      "Buying software"
+     ],
+     "explanation": "Good onboarding helps new people succeed quickly."
+    },
+    {
+     "q": "What does a job description list?",
+     "options": [
+      "Role, duties and skills needed",
+      "Only salary",
+      "Only the logo",
+      "Only holidays"
+     ],
+     "explanation": "It sets expectations for candidates."
+    },
+    {
+     "q": "What is a structured interview?",
+     "options": [
+      "Every candidate gets the same questions",
+      "Only casual chat",
+      "No questions",
+      "A group dance"
+     ],
+     "explanation": "It keeps hiring fair."
+    },
+    {
+     "q": "What does employee engagement mean?",
+     "options": [
+      "How involved and motivated people feel at work",
+      "Number of staff",
+      "Office size",
+      "Pay slip date"
+     ],
+     "explanation": "Engaged teams stay longer."
+    },
+    {
+     "q": "Why keep HR data private?",
+     "options": [
+      "It contains personal information",
+      "To save space",
+      "For marketing",
+      "For design"
+     ],
+     "explanation": "Privacy builds trust and follows the law."
+    }
+   ]
+  },
+  {
+   "id": "pm",
+   "industry": "business",
+   "group": "Management",
+   "name": "Project Manager",
+   "what": "Plans work, keeps a team on track and makes sure projects finish on time.",
+   "fit": "You like organising people and plans and keeping things moving.",
+   "kw": [
+    "Project planning",
+    "Agile",
+    "Scrum",
+    "Jira",
+    "Risk management",
+    "Stakeholder management",
+    "Budgeting",
+    "Excel",
+    "Communication",
+    "Gantt chart",
+    "Trello",
+    "Reporting"
+   ],
+   "path": [
+    "Learn what a project is: goal, scope, time, cost and team.",
+    "Learn to break big work into small tasks.",
+    "Learn Agile and Scrum.",
+    "Practise with a tool such as Trello or Jira.",
+    "Run a small real project and write a report."
+   ],
+   "project": "Plan and run a 2 week project with friends, such as an event. Track tasks on a board and write a short report.",
+   "guide": {
+    "time": "4 to 8 months",
+    "level": "Medium",
+    "jobs": [
+     "Project Coordinator",
+     "Junior Project Manager",
+     "Scrum Master (junior)"
+    ],
+    "days": [
+     "Write the goal of a small project in one sentence.",
+     "List all the tasks needed.",
+     "Put the tasks in order and add dates.",
+     "Create a free Trello board and add the tasks.",
+     "Give each task an owner.",
+     "Write three things that could go wrong.",
+     "Write a short weekly update."
+    ],
+    "tools": [
+     "Trello or Jira",
+     "Excel or Google Sheets",
+     "Google Calendar",
+     "Slack or WhatsApp for updates",
+     "Miro or draw.io"
+    ],
+    "interview": [
+     "How you plan a project from scratch",
+     "How you handle a delayed task",
+     "What Agile and Waterfall are",
+     "How you manage risks",
+     "How you handle a difficult stakeholder",
+     "How you track progress"
+    ],
+    "stages": [
+     {
+      "title": "Foundations",
+      "weeks": "Weeks 1 to 4",
+      "items": [
+       "Learn project basics: scope, time, cost",
+       "Learn to write clear updates",
+       "Learn Excel or Sheets basics"
+      ]
+     },
+     {
+      "title": "Core skills",
+      "weeks": "Weeks 5 to 12",
+      "items": [
+       "Learn Agile and Scrum",
+       "Learn risk and stakeholder management",
+       "Learn Trello, Jira or Asana"
+      ]
+     },
+     {
+      "title": "Build",
+      "weeks": "Weeks 13 to 20",
+      "items": [
+       "Run a real small project",
+       "Track budget and risks",
+       "Write a final report with lessons"
+      ]
+     },
+     {
+      "title": "Get hired",
+      "weeks": "Weeks 21 to 28",
+      "items": [
+       "Practise project manager interview questions",
+       "Consider the CAPM or a Scrum certificate",
+       "Apply for coordinator roles"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "name": "Atlassian Agile Coach",
+      "url": "https://www.atlassian.com/agile",
+      "price": "Free",
+      "desc": "Clear guides on Agile, Scrum and Kanban."
+     },
+     {
+      "name": "The Scrum Guide",
+      "url": "https://scrumguides.org/",
+      "price": "Free",
+      "desc": "The official Scrum rules."
+     },
+     {
+      "name": "PMI",
+      "url": "https://www.pmi.org/",
+      "price": "Free + paid",
+      "desc": "The Project Management Institute with certificates."
+     },
+     {
+      "name": "Trello guide",
+      "url": "https://trello.com/guide",
+      "price": "Free",
+      "desc": "Learn a simple task board tool."
+     },
+     {
+      "name": "Google Project Management Certificate",
+      "url": "https://www.coursera.org/professional-certificates/google-project-management",
+      "price": "Paid (financial aid available)",
+      "desc": "A beginner course with a certificate."
+     },
+     {
+      "name": "Asana guide",
+      "url": "https://asana.com/resources",
+      "price": "Free",
+      "desc": "Articles on planning and teamwork."
+     }
+    ],
+    "projects": [
+     {
+      "level": "Beginner",
+      "title": "Event plan",
+      "desc": "Plan a small college event with tasks, owners and dates.",
+      "publish": "Trello public board"
+     },
+     {
+      "level": "Intermediate",
+      "title": "Sprint project",
+      "desc": "Run two one week sprints for a small team project and track progress.",
+      "publish": "PDF report"
+     },
+     {
+      "level": "Portfolio",
+      "title": "Project case study",
+      "desc": "Document a real project: goal, plan, risks, results and lessons learned.",
+      "publish": "PDF or portfolio page"
+     }
+    ]
+   },
+   "quiz": [
+    {
+     "q": "What is the project scope?",
+     "options": [
+      "What the project will and will not deliver",
+      "The project budget",
+      "The team lunch",
+      "The office address"
+     ],
+     "explanation": "A clear scope stops extra work from creeping in."
+    },
+    {
+     "q": "What is a sprint in Scrum?",
+     "options": [
+      "A short fixed period of work, often 1 to 4 weeks",
+      "A race",
+      "A meeting room",
+      "A tax form"
+     ],
+     "explanation": "Teams plan and finish work in sprints."
+    },
+    {
+     "q": "What is a risk in a project?",
+     "options": [
+      "Something that might go wrong",
+      "A finished task",
+      "A team member",
+      "A chart"
+     ],
+     "explanation": "Plan for risks before they happen."
+    },
+    {
+     "q": "What does a Gantt chart show?",
+     "options": [
+      "Tasks over time",
+      "Staff salary",
+      "Customer reviews",
+      "Code bugs"
+     ],
+     "explanation": "It shows start dates, end dates and order."
+    },
+    {
+     "q": "Who is a stakeholder?",
+     "options": [
+      "Anyone affected by or interested in the project",
+      "Only the boss",
+      "Only the customer",
+      "Only the developer"
+     ],
+     "explanation": "Good managers keep stakeholders informed."
+    }
+   ]
+  },
+  {
+   "id": "sales",
+   "industry": "business",
+   "group": "Sales",
+   "name": "Sales Executive",
+   "what": "Talks to customers, understands their needs and helps them buy products or services.",
+   "fit": "You enjoy talking with people and are not afraid of hearing no.",
+   "kw": [
+    "Communication",
+    "Negotiation",
+    "CRM",
+    "Lead generation",
+    "Cold calling",
+    "Presentation",
+    "Salesforce",
+    "HubSpot",
+    "Product knowledge",
+    "Follow up",
+    "LinkedIn",
+    "Excel"
+   ],
+   "path": [
+    "Learn the sales steps: find leads, talk, present, handle doubts and close.",
+    "Practise speaking clearly and listening well.",
+    "Learn a CRM tool to track customers.",
+    "Learn to write good emails and messages.",
+    "Practise with mock sales calls."
+   ],
+   "project": "Pick a product you like. Write a 60 second pitch, 3 customer questions with answers and a follow up message.",
+   "guide": {
+    "time": "2 to 5 months",
+    "level": "Beginner friendly",
+    "jobs": [
+     "Sales Executive",
+     "Business Development Executive",
+     "Inside Sales Representative"
+    ],
+    "days": [
+     "Pick a product and list who would buy it.",
+     "Write what problem it solves in one sentence.",
+     "Write a 60 second pitch.",
+     "Record yourself saying it and listen back.",
+     "List 3 doubts a customer may have and answers.",
+     "Write a polite follow up message.",
+     "Practise the pitch with a friend and ask for feedback."
+    ],
+    "tools": [
+     "A free CRM such as HubSpot",
+     "LinkedIn",
+     "Google Sheets",
+     "Canva",
+     "A phone to record practice calls"
+    ],
+    "interview": [
+     "Sell me this pen",
+     "How you handle a customer who says no",
+     "How you find new leads",
+     "How you set and track targets",
+     "What you do when you miss a target",
+     "What a sales funnel is"
+    ],
+    "stages": [
+     {
+      "title": "Foundations",
+      "weeks": "Weeks 1 to 3",
+      "items": [
+       "Learn the stages of a sale",
+       "Learn clear speaking and listening",
+       "Learn product knowledge for one industry"
+      ]
+     },
+     {
+      "title": "Core skills",
+      "weeks": "Weeks 4 to 8",
+      "items": [
+       "Learn lead generation and cold outreach",
+       "Learn negotiation and handling objections",
+       "Learn a CRM such as HubSpot"
+      ]
+     },
+     {
+      "title": "Build",
+      "weeks": "Weeks 9 to 14",
+      "items": [
+       "Practise mock calls and demos",
+       "Track sample leads in a CRM",
+       "Write sales emails and messages"
+      ]
+     },
+     {
+      "title": "Get hired",
+      "weeks": "Weeks 15 to 20",
+      "items": [
+       "Practise sales interview questions and role plays",
+       "Build your LinkedIn profile",
+       "Apply for sales and business development roles"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "name": "HubSpot Academy",
+      "url": "https://academy.hubspot.com/",
+      "price": "Free",
+      "desc": "Free sales and CRM courses with certificates."
+     },
+     {
+      "name": "Salesforce Trailhead",
+      "url": "https://trailhead.salesforce.com/",
+      "price": "Free",
+      "desc": "Learn the CRM that many companies use."
+     },
+     {
+      "name": "HubSpot Sales Blog",
+      "url": "https://blog.hubspot.com/sales",
+      "price": "Free",
+      "desc": "Practical sales articles."
+     },
+     {
+      "name": "LinkedIn Learning",
+      "url": "https://www.linkedin.com/learning/",
+      "price": "Free trial + paid",
+      "desc": "Video courses on sales and communication."
+     },
+     {
+      "name": "Toastmasters",
+      "url": "https://www.toastmasters.org/",
+      "price": "Paid",
+      "desc": "Practise public speaking."
+     },
+     {
+      "name": "Canva",
+      "url": "https://www.canva.com/",
+      "price": "Free + paid",
+      "desc": "Make clean presentations."
+     }
+    ],
+    "projects": [
+     {
+      "level": "Beginner",
+      "title": "60 second pitch",
+      "desc": "Write and record a pitch for a product.",
+      "publish": "Share with friends or on LinkedIn"
+     },
+     {
+      "level": "Intermediate",
+      "title": "Lead list and outreach",
+      "desc": "Find 20 sample leads, write a message for each type and track replies.",
+      "publish": "Google Sheets"
+     },
+     {
+      "level": "Portfolio",
+      "title": "Sales playbook",
+      "desc": "Write a 3 page guide for selling one product: customers, pitch, doubts and follow up.",
+      "publish": "PDF"
+     }
+    ]
+   },
+   "quiz": [
+    {
+     "q": "What is a lead?",
+     "options": [
+      "A person or company that might buy",
+      "A finished sale",
+      "A product",
+      "A complaint"
+     ],
+     "explanation": "Leads are potential customers."
+    },
+    {
+     "q": "What is an objection?",
+     "options": [
+      "A doubt or concern a customer raises",
+      "A discount",
+      "A contract",
+      "A promotion"
+     ],
+     "explanation": "Good sellers listen and answer doubts."
+    },
+    {
+     "q": "What does a CRM do?",
+     "options": [
+      "Stores and tracks customer information",
+      "Edits video",
+      "Writes code",
+      "Prints invoices only"
+     ],
+     "explanation": "CRM means customer relationship management."
+    },
+    {
+     "q": "What should you do after a sales call?",
+     "options": [
+      "Follow up politely",
+      "Never contact again",
+      "Send many angry messages",
+      "Delete notes"
+     ],
+     "explanation": "Follow up keeps the conversation going."
+    },
+    {
+     "q": "What is a pitch?",
+     "options": [
+      "A short explanation of how you can help a customer",
+      "A cricket ground",
+      "A contract",
+      "A price list"
+     ],
+     "explanation": "A good pitch focuses on the customer's problem."
+    }
+   ]
+  },
+  {
+   "id": "instdesign",
+   "industry": "education",
+   "group": "Learning design",
+   "name": "Instructional Designer",
+   "what": "Designs courses and learning materials so people can learn something quickly and well.",
+   "fit": "You like explaining things clearly and designing how people learn.",
+   "kw": [
+    "Instructional design",
+    "Storyline",
+    "Articulate Rise",
+    "Canva",
+    "Learning objectives",
+    "Storyboarding",
+    "ADDIE",
+    "Video editing",
+    "Assessment design",
+    "eLearning",
+    "LMS",
+    "Writing"
+   ],
+   "path": [
+    "Learn how people learn: goals, practice and feedback.",
+    "Learn the ADDIE steps: analyse, design, develop, implement and evaluate.",
+    "Learn to write clear learning objectives.",
+    "Learn a course tool such as Articulate Rise or Canva.",
+    "Build a short online lesson with a quiz."
+   ],
+   "project": "Make a 10 minute online lesson on a topic you know, with a goal, a short video or slides and a 5 question quiz.",
+   "guide": {
+    "time": "3 to 6 months",
+    "level": "Beginner friendly",
+    "jobs": [
+     "Instructional Designer",
+     "eLearning Developer",
+     "Learning Content Creator"
+    ],
+    "days": [
+     "Pick a topic you can teach in 10 minutes.",
+     "Write what learners should be able to do after the lesson.",
+     "Outline the lesson in 5 short steps.",
+     "Make simple slides in Canva.",
+     "Write 5 quiz questions.",
+     "Ask one person to take your lesson.",
+     "Note where they got confused and fix it."
+    ],
+    "tools": [
+     "Canva",
+     "Articulate Rise (trial)",
+     "Google Slides",
+     "A free video editor",
+     "Google Forms for quizzes"
+    ],
+    "interview": [
+     "How you start designing a course",
+     "What makes a learning objective good",
+     "How you check if learners learned",
+     "How you make content engaging",
+     "What tools you have used",
+     "How you use learner feedback"
+    ],
+    "stages": [
+     {
+      "title": "Foundations",
+      "weeks": "Weeks 1 to 3",
+      "items": [
+       "Learn how adults learn",
+       "Learn learning objectives",
+       "Learn clear writing"
+      ]
+     },
+     {
+      "title": "Core skills",
+      "weeks": "Weeks 4 to 10",
+      "items": [
+       "Learn ADDIE and storyboarding",
+       "Learn Articulate Rise or a similar tool",
+       "Learn quiz and assessment design"
+      ]
+     },
+     {
+      "title": "Build",
+      "weeks": "Weeks 11 to 16",
+      "items": [
+       "Build 2 short courses",
+       "Test them with real learners",
+       "Improve them from feedback"
+      ]
+     },
+     {
+      "title": "Get hired",
+      "weeks": "Weeks 17 to 24",
+      "items": [
+       "Publish a portfolio with your courses",
+       "Practise explaining your design choices",
+       "Apply for instructional design and content roles"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "name": "Instructional Design Central",
+      "url": "https://www.instructionaldesigncentral.com/",
+      "price": "Free",
+      "desc": "Guides on instructional design basics."
+     },
+     {
+      "name": "Articulate Community",
+      "url": "https://community.articulate.com/",
+      "price": "Free",
+      "desc": "Tips and challenges from course creators."
+     },
+     {
+      "name": "Canva Design School",
+      "url": "https://www.canva.com/designschool/",
+      "price": "Free",
+      "desc": "Design basics for slides and handouts."
+     },
+     {
+      "name": "Khan Academy",
+      "url": "https://www.khanacademy.org/",
+      "price": "Free",
+      "desc": "Study how great lessons are structured."
+     },
+     {
+      "name": "Google for Education",
+      "url": "https://edu.google.com/",
+      "price": "Free",
+      "desc": "Tools and training for teaching online."
+     },
+     {
+      "name": "Coursera",
+      "url": "https://www.coursera.org/",
+      "price": "Free + paid",
+      "desc": "Courses on learning design (look for financial aid)."
+     }
+    ],
+    "projects": [
+     {
+      "level": "Beginner",
+      "title": "One page lesson plan",
+      "desc": "Plan a 10 minute lesson with a goal, steps and a quiz.",
+      "publish": "Google Doc"
+     },
+     {
+      "level": "Intermediate",
+      "title": "Short online lesson",
+      "desc": "Build the lesson in slides or Rise with a quiz and feedback.",
+      "publish": "Shareable link"
+     },
+     {
+      "level": "Portfolio",
+      "title": "Mini course",
+      "desc": "Create a 3 lesson course with a storyboard, a quiz for each lesson and learner feedback.",
+      "publish": "Portfolio page"
+     }
+    ]
+   },
+   "quiz": [
+    {
+     "q": "What is a learning objective?",
+     "options": [
+      "A clear statement of what learners will be able to do",
+      "A grade",
+      "A fee",
+      "A syllabus"
+     ],
+     "explanation": "Good objectives start with action words."
+    },
+    {
+     "q": "What does ADDIE stand for?",
+     "options": [
+      "Analyse, Design, Develop, Implement, Evaluate",
+      "Add, Draw, Delete, Insert, Edit",
+      "Act, Decide, Do, Inspect, End",
+      "Ask, Draft, Design, Install, Exit"
+     ],
+     "explanation": "It is a common design process."
+    },
+    {
+     "q": "Why add quizzes to a lesson?",
+     "options": [
+      "They help learners practise and check understanding",
+      "To make it longer",
+      "For decoration",
+      "To hide the answer"
+     ],
+     "explanation": "Practice improves memory."
+    },
+    {
+     "q": "What is a storyboard?",
+     "options": [
+      "A plan of each screen or scene in a lesson",
+      "A film award",
+      "A textbook",
+      "A bill"
+     ],
+     "explanation": "Storyboards help you plan before you build."
+    },
+    {
+     "q": "What is an LMS?",
+     "options": [
+      "A system to host and track online courses",
+      "A camera",
+      "A spreadsheet",
+      "A font"
+     ],
+     "explanation": "LMS means learning management system."
+    }
+   ]
+  },
+  {
+   "id": "teacher",
+   "industry": "education",
+   "group": "Teaching",
+   "name": "Teacher",
+   "what": "Helps students learn in a classroom or online and guides them as they grow.",
+   "fit": "You are patient, enjoy explaining and like helping people improve.",
+   "kw": [
+    "Lesson planning",
+    "Classroom management",
+    "Communication",
+    "Subject knowledge",
+    "Assessment",
+    "Google Classroom",
+    "Presentation",
+    "Child development",
+    "Patience",
+    "Curriculum",
+    "Student engagement",
+    "Educational technology"
+   ],
+   "path": [
+    "Choose a subject and level you enjoy teaching.",
+    "Learn how to plan a lesson with a goal, activity and check.",
+    "Practise explaining the same idea in simple words.",
+    "Learn the education qualifications you need, such as B.Ed. and TET or CTET.",
+    "Gain classroom time through tutoring or volunteering."
+   ],
+   "project": "Teach one topic to 3 younger students or friends. Plan the lesson, teach it and note what worked.",
+   "guide": {
+    "time": "6 to 24 months",
+    "level": "Medium",
+    "jobs": [
+     "Teacher",
+     "Online Tutor",
+     "Teaching Assistant"
+    ],
+    "days": [
+     "Pick one subject and one topic to teach.",
+     "Write the lesson goal in one line.",
+     "Plan three small activities.",
+     "Teach the topic to one friend or sibling.",
+     "Ask them three questions to check learning.",
+     "Write what went well and what to change.",
+     "Look up the qualifications needed in your state."
+    ],
+    "tools": [
+     "Google Classroom",
+     "Google Slides",
+     "A whiteboard or digital whiteboard",
+     "Google Forms",
+     "YouTube for demo lessons"
+    ],
+    "interview": [
+     "Why you want to teach",
+     "How you plan a lesson",
+     "How you handle a noisy class",
+     "How you help a student who is falling behind",
+     "How you use technology in teaching",
+     "Give a 2 minute demo lesson"
+    ],
+    "stages": [
+     {
+      "title": "Foundations",
+      "weeks": "Weeks 1 to 4",
+      "items": [
+       "Decide subject and age group",
+       "Learn lesson planning",
+       "Learn how children and teens learn"
+      ]
+     },
+     {
+      "title": "Core skills",
+      "weeks": "Weeks 5 to 16",
+      "items": [
+       "Learn classroom management",
+       "Learn assessment and feedback",
+       "Learn Google Classroom and online teaching tools"
+      ]
+     },
+     {
+      "title": "Build",
+      "weeks": "Weeks 17 to 30",
+      "items": [
+       "Tutor or volunteer to gain practice",
+       "Prepare for B.Ed. and TET or CTET if needed",
+       "Collect feedback from students"
+      ]
+     },
+     {
+      "title": "Get hired",
+      "weeks": "Weeks 31 to 40",
+      "items": [
+       "Prepare a demo lesson",
+       "Apply to schools and tutoring platforms",
+       "Keep learning your subject"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "name": "DIKSHA",
+      "url": "https://diksha.gov.in/",
+      "price": "Free",
+      "desc": "The national platform for school education with lessons and teacher training."
+     },
+     {
+      "name": "SWAYAM",
+      "url": "https://swayam.gov.in/",
+      "price": "Free",
+      "desc": "Free online courses from Indian institutions."
+     },
+     {
+      "name": "NCERT",
+      "url": "https://ncert.nic.in/",
+      "price": "Free",
+      "desc": "Official school textbooks and teacher resources."
+     },
+     {
+      "name": "CTET",
+      "url": "https://ctet.nic.in/",
+      "price": "Free",
+      "desc": "Official information on the Central Teacher Eligibility Test."
+     },
+     {
+      "name": "Khan Academy",
+      "url": "https://www.khanacademy.org/",
+      "price": "Free",
+      "desc": "Learn how great lessons are explained."
+     },
+     {
+      "name": "Google for Education",
+      "url": "https://edu.google.com/",
+      "price": "Free",
+      "desc": "Free tools and training for teachers."
+     }
+    ],
+    "projects": [
+     {
+      "level": "Beginner",
+      "title": "One lesson plan",
+      "desc": "Plan a 30 minute lesson with a goal, activities and a quick check.",
+      "publish": "Google Doc"
+     },
+     {
+      "level": "Intermediate",
+      "title": "Tutor for a week",
+      "desc": "Teach one student for a week and track their progress.",
+      "publish": "Short written report"
+     },
+     {
+      "level": "Portfolio",
+      "title": "Demo lesson video",
+      "desc": "Record a 10 minute lesson with slides and clear explanations.",
+      "publish": "YouTube link"
+     }
+    ]
+   },
+   "quiz": [
+    {
+     "q": "What is a lesson objective?",
+     "options": [
+      "What students should learn by the end",
+      "A seating plan",
+      "A holiday list",
+      "A fee"
+     ],
+     "explanation": "Objectives guide the whole lesson."
+    },
+    {
+     "q": "What is formative assessment?",
+     "options": [
+      "Checking learning during the lesson",
+      "The final exam only",
+      "The report card",
+      "The timetable"
+     ],
+     "explanation": "It helps teachers adjust."
+    },
+    {
+     "q": "Which tool helps manage classes online?",
+     "options": [
+      "Google Classroom",
+      "Blender",
+      "Wireshark",
+      "Docker"
+     ],
+     "explanation": "Teachers share work and feedback there."
+    },
+    {
+     "q": "What helps with classroom management?",
+     "options": [
+      "Clear rules and routines",
+      "Shouting",
+      "Ignoring problems",
+      "No planning"
+     ],
+     "explanation": "Clear routines save time and keep order."
+    },
+    {
+     "q": "What does CTET test?",
+     "options": [
+      "Eligibility to teach in central government schools",
+      "Computer skills only",
+      "Driving",
+      "Typing speed"
+     ],
+     "explanation": "It is a teacher eligibility test."
+    }
+   ]
+  }
+ ]
+}

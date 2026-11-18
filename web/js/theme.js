@@ -1,0 +1,1 @@
+try{var _t=localStorage.getItem("ns.theme");if(_t==="light"||_t==="dark")document.documentElement.setAttribute("data-theme",_t);var _p=localStorage.getItem("ns.pal");if(["violet","emerald","rose","ocean"].indexOf(_p)>=0)document.documentElement.setAttribute("data-pal",_p)}catch(e){}
